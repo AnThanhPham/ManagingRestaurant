@@ -1,0 +1,67 @@
+﻿@* @model X.PagedList.IPagedList<ManagingRestaurant.Models.Product>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@{
+    Layout = "_Layout";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_responsive.css">
+</head>
+
+<div class="container contact_container">
+    <div class="row">
+        <div class="col">
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Wish List</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="mb-3">
+        <h2>WISH LIST</h2>
+    </div>
+    <div class="row g-4">
+        @if (Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-md-4 mt-3 col-sm-2">
+                    <div class="card h-100">
+                        <a asp-area="" asp-controller="Home" asp-action="DetailProduct" asp-route-id="@item.Id">
+                            @if (item.Image == null || item.Image == "")
+                            {
+                                <img style="" src="https://i.pinimg.com/564x/f9/eb/90/f9eb906ba4374bffecb9af1285dad4f7.jpg" class="card-img-top" alt="...">
+                            }
+                            else
+                            {
+                                <img style="" src="@item.Image" class="card-img-top" alt="...">
+                            }
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Title</h5>
+                            <p class="card-text">@item.Description</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated @item.CreatedAt</small>
+                        </div>
+                    </div>
+                </div>
+            }   
+        }
+        else
+        {
+            <h3>No WishList</h3>
+        }
+    </div>
+    <div class="m-3 d-flex flex-row-reverse">
+        @Html.PagedListPager(Model, page => Url.Action("GetWishList", new { page}))
+    </div>
+    
+    
+</div>
+ *@

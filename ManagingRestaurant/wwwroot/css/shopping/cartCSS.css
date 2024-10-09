@@ -1,0 +1,178 @@
+
+/* Header */
+header {
+    background-color: #111114;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navbar-item {
+    list-style: none;
+}
+
+.navbar-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 34px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.navbar-item a:hover,.table-reservation__login:hover {
+    color: #FB8F2C;
+}
+
+.table-reservation__reserve:hover {
+    color: #FB8F2C;
+    border-bottom: 1px solid #FB8F2C;
+}
+
+.table-reservation__login {
+    text-decoration: none;
+    padding-right: 28px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.table-reservation__reserve {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    transition: linear 0.3s;
+}
+
+.menu-nav {
+    padding: 10px;
+    display: none;
+}
+
+.menu-nav:hover {
+    transition: linear 0.3s;
+    background-color: #808080;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+/*main*/
+body{
+    background-color: #111114;
+}
+
+main{
+    margin-top: 150px;
+   /* color: rgba(255, 255, 255, 1)*/
+}
+.products-cart li{
+  list-style-type: none;
+}
+.products-cart ul{
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+}
+.products-cart .header-card{
+  padding-bottom: 20px;
+  font: 500 24px/34px 'Libre Bodoni', serif;
+}
+.cart-ul{
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  padding: 20px 0px;
+}
+.cart-ul li{
+  margin: auto 0;
+}
+.cart-ul button {
+  padding: 5px 10px ;
+}
+.main h4{
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  padding: 40px 0  0 0;
+  margin-top: -30px;
+  font: 500 24px/34px 'Libre Bodoni', serif;
+}
+/* Footer */
+
+footer {
+  background-color: #111114;
+  padding: 150px 0 41px 0;
+}
+
+.footer__logo p,.footer__creation p {
+  margin-top: 76px;
+  max-width: 211px;
+  line-height: 1.625;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.footer__logo .trademark,.footer__creation .trademark{
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer__logo .trademark img,.footer__creation .trademark img{
+  max-width: 121.6px;
+  height: 36px;
+  object-fit: cover;
+}
+
+footer h5 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+footer ul {
+  margin-top: 24px;
+}
+
+footer ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.80);
+  line-height: 1.625; /* 162.5% */
+  display: block;
+  margin-bottom: 16px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: linear 0.3s;
+}
+
+footer ul li:hover,footer ul li a:hover {
+  color: #FB8F2C;
+}
+
+.footer__contact-info ul li a {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+
+.footer__follow-us li a{
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ccc;
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer__creation {
+  display: none;
+}
+

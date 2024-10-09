@@ -1,0 +1,86 @@
+@using ManagingRestaurant.Data
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@model AppUser
+@inject RestaurantContext _context;
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_LayoutAdmin";
+    var roles = await _context.Roles.Select(r => r.Name).ToListAsync();
+}
+<div class="m-3">
+    <h1>Create</h1>
+    
+    <h4>User</h4>
+    <hr />
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control"/>
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control"/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Password</label>
+                    <input name="password" class="form-control"/>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control"/>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control"/>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.FullName" class="control-label"></label>
+                    <input asp-for="@Model.FullName" class="form-control"/>
+                    <span asp-validation-for="@Model.FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Birthday" class="control-label"></label>
+                    <input asp-for="@Model.Birthday" class="form-control"/>
+                    <span asp-validation-for="@Model.Birthday" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Roles</label>
+                <select name="roles" size="3" class="form-select w-100" multiple aria-label="multiple select example">
+                    @foreach (var role in roles)
+                    {
+                        <option value="@role">@role</option>
+                    }
+                </select>
+                <div class="form-group">
+                    <label asp-for="@Model.EmailConfirmed" class="control-label"></label>
+                    <input asp-for="@Model.EmailConfirmed" class="form-control"/>
+                    <span asp-validation-for="@Model.EmailConfirmed" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.PhoneNumberConfirmed" class="control-label"></label>
+                    <input asp-for="@Model.PhoneNumberConfirmed" class="form-control"/>
+                    <span asp-validation-for="@Model.PhoneNumberConfirmed" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-success"/>
+        </div>
+        <div>
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+        
+    </form>
+    
+    
+</div>

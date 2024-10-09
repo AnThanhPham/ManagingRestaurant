@@ -1,0 +1,87 @@
+@model ManagingRestaurant.Models.Blog
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<partial name="_StatusMessage"/>
+<div class="m-3">
+   <h1>Edit</h1>
+   
+   <h4>Blogs</h4>
+    <hr />
+    <form asp-action="Edit" enctype="multipart/form-data">
+   <div class="row">
+       <div class="col-md-4">
+           
+               <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               <input type="hidden" asp-for="Id" />
+               <div class="form-group">
+                   <label asp-for="Title" class="control-label"></label>
+                   <input asp-for="Title" class="form-control" />
+                   <span asp-validation-for="Title" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                   <label asp-for="ShortDesc" class="control-label"></label>
+                   <input asp-for="ShortDesc" class="form-control" />
+                   <span asp-validation-for="ShortDesc" class="text-danger"></span>
+               </div>
+               
+               <div class="form-group">
+                   
+                   <div class="row">
+                       <div class="col">
+                           <label for="formFile" class="form-label">Image</label>
+                           <input class="form-control" name="file" type="file" id="formFile">
+                       </div>
+                       <div class="col display-image">
+                            <img src="@Url.Content("~/UploadedFiles/" + Model.Image)" alt="image" style="width: 90px; height: 90px;" />
+                       </div>
+                   </div>
+                   
+               </div>
+               <div class="form-group d-none">
+                   <label asp-for="Image" class="control-label"></label>
+                   <input asp-for="Image" class="form-control" />
+                   <span asp-validation-for="Image" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                   <label asp-for="IsActive" class="control-label"></label>
+                   <input asp-for="IsActive" class="form-control" />
+                   <span asp-validation-for="IsActive" class="text-danger"></span>
+               </div>
+               
+               <div class="form-group d-none">
+                   <label asp-for="@Model.CreatedAt" class="control-label"></label>
+                   <input asp-for="@Model.CreatedAt" class="form-control"/>
+                   <span asp-validation-for="@Model.CreatedAt" class="text-danger"></span>
+               
+               </div>
+               <div class="form-group d-none">
+                   <label asp-for="@Model.CreatedBy" class="control-label"></label>
+                   <input asp-for="@Model.CreatedBy" class="form-control"/>
+                   <span asp-validation-for="@Model.CreatedBy" class="text-danger"></span>
+                           
+               </div>
+               
+               
+               <div class="form-group">
+                   <input type="submit" value="Save" class="btn btn-success" />
+                   <a class="btn btn-primary" asp-action="Index">Back to List</a>
+               </div>
+           
+       </div>
+       <div class="col-md-6">
+           <div class="form-group">
+               <label asp-for="Desciption" class="control-label"></label>
+               <textarea placeholder="If you want to use image, please copy it and paste to textarea" asp-for="Desciption" class="form-control editor"></textarea>
+               <span asp-validation-for="Desciption" class="text-danger"></span>
+           </div>
+                   
+       </div>
+       
+   </div>
+   </form>
+    
+</div>

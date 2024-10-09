@@ -1,0 +1,38 @@
+﻿@model ManagingRestaurant.Areas.Payment.Models.SuccessOrder
+@{
+    ViewData["Title"] = "Payment";
+    Layout = "_Layout";
+}
+<style>
+  .form-control{
+  color: #1e1e27 !important;
+  }
+</style>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_responsive.css">
+</head>
+<div class="container contact_container">
+    <div style="margin-top: 213px">
+        @if (Model.Success)
+        {
+            <div>
+                <i style="font-size: 40px; text-align: center;color: #7bc876" class="fa-solid fa fa-check-circle"></i>
+            </div>
+            <div>
+                <h1 style="text-align: center; color: #7bc876">ORDER SUCCESS</h1>
+                <p style="text-align: center; color: #7bc876">Thank you for your order please check email to confirm</p>
+            </div>
+        }
+        else
+        {
+            <div>
+                <i style="font-size: 40px; text-align: center;color: #f44336" class="fa-solid fa-exclamation-circle"></i>
+            </div>
+            <div>
+                <h1 style="text-align: center; color: #f44336">ORDER FAILED</h1>
+                <p style="text-align: center; color: #f44336">Please try again</p>
+            </div>
+        }
+    </div>
+</div>

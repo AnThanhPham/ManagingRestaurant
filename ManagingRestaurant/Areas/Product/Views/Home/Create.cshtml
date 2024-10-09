@@ -1,0 +1,124 @@
+@model ManagingRestaurant.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<partial name="_StatusMessage"/>
+<div class="m-3">
+    <h1>Create</h1>
+    <h4>Product</h4>
+    <hr />
+    <form asp-action="Create" enctype="multipart/form-data" method="post">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                    <ol class="breadcrumb mb-0 d-flex justify-content-between">
+                        <li>
+                            <div class="create-click btn btn-primary">Default</div>
+                            <div class="create-click btn">Images</div>
+                        </li>
+                        <li><button asp-action="Index" class="btn btn-primary mr-2">Back To list</button></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row create-info create-active">
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ShortDesc" class="control-label"></label>
+                    <input asp-for="ShortDesc" class="form-control" />
+                    <span asp-validation-for="ShortDesc" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductCode" class="control-label"></label>
+                    <input asp-for="ProductCode" class="form-control"/>
+                    <span asp-validation-for="ProductCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label">Category</label>
+                    @Html.DropDownList("CategoryId", ViewData["ProductCategoryId"] as SelectList, "Select Category", new { @class = "form-control" })
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group d-flex justify-content-between">
+                    <div>
+                        <label asp-for="Quantity" class="control-label"></label>
+                        <input style="width: 90%" asp-for="Quantity" class="form-control"/>
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Price" class="control-label"></label>
+                        <input style="width: 90%" asp-for="Price" class="form-control numeric numeric-price"/>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input asp-for="IsActive" class="form-check-input"/>
+                    <label asp-for="IsActive" class="form-check-label"></label>
+                    <span asp-validation-for="IsActive" class="text-danger"></span>
+                </div>            
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea placeholder="If you want to use image, please copy it and paste to textarea" asp-for="Description" class="form-control editor"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row create-info d-none">
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="formFile" class="form-label">Image-Avatar</label>
+                            <input class="form-control" name="file" type="file" id="formFile"/>
+                        </div>
+                        <div class="display-image"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <label for="formFileMultiple" class="form-label">More-Image</label>
+                            <input class="form-control" name="files" type="file" id="formFileMultiple" multiple/>
+                        </div>
+                    </div>
+                    <div class="row display-image-more "></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row create-info d-none">
+            <div class="form-group d-none">
+                <label asp-for="@Model.CreatedAt" class="control-label"></label>
+                <input asp-for="@Model.CreatedAt" class="form-control"/>
+                <span asp-validation-for="@Model.CreatedAt" class="text-danger"></span>
+
+            </div>
+            <div class="form-group d-none">
+                <label asp-for="@Model.CreatedBy" class="control-label"></label>
+                <input asp-for="@Model.CreatedBy" class="form-control"/>
+                <span asp-validation-for="@Model.CreatedBy" class="text-danger"></span>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-success"/>
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+
+

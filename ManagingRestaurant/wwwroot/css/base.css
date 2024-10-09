@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: #FB8F2C;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
+}
+
+input,textarea,select,button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.mainColor {
+    color: #FB8F2C!important;
+}
+
+.hide {
+    display: none!important;
+}
+
+.appear {
+    display: block!important;
+}
+

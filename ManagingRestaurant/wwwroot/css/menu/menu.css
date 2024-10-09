@@ -1,0 +1,257 @@
+body {
+    background-color: #111114;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #111114;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navbar-item {
+    list-style: none;
+}
+
+.navbar-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 34px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.navbar-item a:hover,.table-reservation__login:hover {
+    color: #FB8F2C;
+}
+
+.table-reservation__reserve:hover {
+    color: #FB8F2C;
+    border-bottom: 1px solid #FB8F2C;
+}
+
+.table-reservation__login {
+    text-decoration: none;
+    padding-right: 28px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.table-reservation__reserve {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    transition: linear 0.3s;
+}
+
+.menu-nav {
+    padding: 10px;
+    display: none;
+}
+
+.menu-nav:hover {
+    transition: linear 0.3s;
+    background-color: #808080;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+/* style block */
+.breakfast {
+    padding-bottom: 7em;
+}
+.breakfast__Bigtitle h2{
+    color: white;
+    text-align: center;
+    font-family: Libre Bodoni;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74px; /* 115.625% */
+    text-transform: capitalize;
+    padding-top: 8rem;
+    padding-bottom: 5px;
+}
+.breakfast__svg{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+.breakfast__img-item__food img{
+    width: 100%;
+}
+.breakfast__img__desc h3{
+    color: var(--White, #FFF);
+    font-family: Libre Bodoni;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; 
+    text-transform: capitalize;
+    padding-top: 16px;
+    padding-bottom: 5px;
+}
+.breakfast__img__desc p{
+    color: var(--white-80, rgba(255, 255, 255, 0.80));
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-bottom: 2.8rem;
+}
+.breakfast__img-order-link a:hover{
+    color: rgba(251, 143, 44, 0.80);
+    transition: linear 0.3s;
+}
+.breakfast__img-order-link a{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    border-bottom:1px solid rgba(251, 143, 44, 0.80);
+    padding-bottom: 7px;
+}
+.breakfast__img-order {
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid rgba(98, 98, 98, 0.8);
+    padding:13px 0;
+}
+.breakfast__img-order h3{
+    padding: 0;
+}
+.breakfast__img-item {
+    display: block;
+}
+.breakfast__img__desc-title h3{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.breakfast__img-order-link svg{
+    opacity: 0;
+}
+.col-lg-4 {
+    position: relative;
+}
+
+/* owl  */
+img.owl-next,img.owl-prev {
+    position: absolute;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top:150px;
+    right: -50px;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top:150px;
+    left: -50px;
+}
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next{
+    outline: none;
+    transition: all .5s ease;
+}
+.owl-dot:hover span {
+    background-color: #FB8F2C !important;
+}
+.owl-dot.active span {
+    width: 20px !important;
+    background-color: #FB8F2C !important;
+}
+
+/* banner */
+.Banner {
+    background-image: url(../../img/menu/Rectangle26.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.Banner__desc {
+    text-align: center;
+    background-color:rgba(17, 17, 20, 0.50);
+    backdrop-filter: blur(2px);
+    display: inline-block;
+    padding: 70px 150px;
+}
+.Banner__desc h2 {
+    color: #FFF;
+    font-family: Libre Bodoni;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74px; /* 115.625% */
+    text-transform: capitalize;
+}
+.Banner__desc p{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-top: 5px;
+    padding-bottom: 32px;
+}
+.Banner__desc a{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: rgba(251, 143, 44, 0.80);
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+.Banner__desc a:hover{
+    background-color:rgba(255, 115, 0, 0.918) ;
+    transition: linear 0.3s;
+}
+
+/* padding between */
+#Lunch.breakfast__block2.breakfast {
+    padding-bottom: 0em;
+}
+#Dinner.breakfast__Bigtitle h2 {
+    padding-top: 0em;
+}
+#Starter.breakfast__Bigtitle h2 {
+    padding-top: 0em;
+}
+.last {
+    padding: 55px 0 41px 0;
+}
+#contact{
+    padding-top: 50px;
+}
+
+
+
+

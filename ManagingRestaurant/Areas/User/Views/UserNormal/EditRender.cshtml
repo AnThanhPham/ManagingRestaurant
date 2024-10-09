@@ -1,0 +1,229 @@
+﻿@* @using Microsoft.AspNetCore.Identity
+@model AppUser
+@inject UserManager<AppUser> _userManager;
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_Layout";
+  var roles = await _userManager.GetRolesAsync(Model);
+  var user = await _userManager.GetUserAsync(User);
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_responsive.css">
+</head>
+<style>
+  .form-control{
+  color: #1e1e27;
+  }
+</style>
+<div class="container contact_container">
+  
+  <div class="row">
+    <div class="col">
+      <div class="breadcrumbs d-flex flex-row align-items-center">
+        <ul>
+          <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+          <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Info</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <partial name="_StatusMessage"/>
+  <form asp-action="EditRender" enctype="multipart/form-data">
+    <section style="background-color: #eee;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+              <ol class="breadcrumb mb-0 d-flex justify-content-between">
+                <li>
+                  <button type="submit" class="btn btn-success mr-2">Save</button>
+                  <a asp-area="Identity" asp-page="/Account/ForgotPassword" class="btn btn-info">Change Password</a>
+                  <a asp-area="User" asp-controller="UserNormal" asp-action="HistoryOrder" asp-route-id="@user.Id" class="btn btn-warning text-white">History Order</a>
+                  <a style="color: white;background-color:
+              #e29fb6 " asp-area="User" asp-controller="UserNormal" asp-action="GetWishList" class="btn">Wish List</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-4">
+              <div class="card-body text-center">
+                <img src="@Model.Image" alt="avatar" id="image-user"
+                     class="rounded-circle img-fluid" style="width: 150px;">
+                <h5 class="my-3">@Model.UserName</h5>
+                <p class="text-muted mb-1">@Model.Job</p>
+                <p class="text-muted mb-4">@Model.Address</p>
+                <div class="d-flex justify-content-center mb-2">
+                  <label for="input-image-upload" class="btn btn-primary m-0 mr-1">Upload Image</label>
+                  <input onchange="readURL(this)" id="input-image-upload" type="file" name="file" class="d-none">
+                  <a asp-area="User" asp-controller="Home" asp-action="DeleteImage" asp-route-id="@Model.Id" class="btn btn-outline-primary ms-1 ml-1">Delete Image</a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 mb-lg-0">
+              <div class="card-body p-0">
+                <ul class="list-group list-group-flush rounded-3">
+                  <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                    <i class="fab fa-facebook-f fa-lg mr-3" style="color: #3b5998;"></i>
+                    <input asp-for="@Model.FbLink" class="form-control"/>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                    <i class="fab fa-instagram fa-lg mr-3" style="color: #ac2bac;"></i>
+                    <input asp-for="@Model.IgLink" class="form-control"/>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                    <i class="fas fa-globe fa-lg text-warning mr-3"></i>
+                    <input asp-for="@Model.OtherLink" class="form-control"/>
+                  </li>
+                    
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="card mb-4">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.UserName"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.UserName" class="form-control"/>
+                    <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.Email"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.Email" class="form-control"/>
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                  </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                  <div class="col-sm-3">
+                    Role
+                  </div>
+                  <div class="col-sm-9">
+                    @{
+                      string userRole = "";
+                    }
+                    @foreach (string role in roles)
+                    {
+                      if(roles.Count() > 1)
+                      {
+                        userRole += role + ", ";
+                      }
+                      else
+                      {
+                        userRole += role;
+                      }
+                    }
+                    <p class="m-0">@userRole</p>
+                  </div>
+                </div>
+                  
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.PhoneNumber"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.PhoneNumber" class="form-control"/>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.Job"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.Job" class="form-control"/>
+                  </div>
+                </div>
+                <hr>
+                  
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.Address"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.Address" class="form-control"/>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.BirthDay"></label>
+                  </div>
+                  <div class="col-sm-9">
+                    <input asp-for="@Model.BirthDay" class="form-control"/>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.EmailConfirmed"></label>
+                  </div>
+                  <div class="col-sm-9" style="text-align: center">
+                    @if (Model.EmailConfirmed == true)
+                    {
+                      <span class="badge badge-success">Yes</span>
+                    }
+                    else
+                    {
+                      <span class="badge badge-danger">No</span>
+                    }
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <label class="mt-1" asp-for="@Model.PhoneNumberConfirmed"></label>
+                  </div>
+                  <div class="col-sm-9" style="text-align: center">
+                    @if (Model.PhoneNumberConfirmed == true)
+                    {
+                      <span class="badge badge-success">Yes</span>
+                    }
+                    else
+                    {
+                      <span class="badge badge-danger">No</span>
+                    }
+                      
+                  </div>
+                    
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+    <input hidden="hidden" asp-for="@Model.EmailConfirmed" class="form-control"/>
+    <input hidden="hidden" asp-for="@Model.PhoneNumberConfirmed" class="form-control"/>
+  </form>
+</div>
+
+<script>
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+    
+      var reader = new FileReader();
+      reader.onload = function (e) { 
+        document.getElementById("image-user").setAttribute("src",e.target.result);
+      };
+
+      reader.readAsDataURL(input.files[0]); 
+    }
+  }
+</script>
+ *@

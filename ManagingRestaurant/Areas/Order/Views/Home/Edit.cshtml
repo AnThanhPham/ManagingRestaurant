@@ -1,0 +1,122 @@
+@using ManagingRestaurant.Areas.Payment.Models
+@model ManagingRestaurant.Models.Order
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    var methodPay = Enum.GetValues(typeof(MethodPayment))
+        .Cast<MethodPayment>()
+        .Select(e => new { Value = (int)e, Text = e.ToString() });
+    var statusValues = Enum.GetValues(typeof(StatusOrder))
+        .Cast<StatusOrder>()
+        .Select(e => new { Value = (int)e, Text = e.ToString() });
+}
+<partial name="_StatusMessage"/>
+<div class="m-3">
+    <h1>Edit</h1>
+    <h4>Order</h4>
+    <hr />
+    <form asp-action="Edit" enctype="multipart/form-data" method="post">
+        <div class="row">
+            <div class="col-lg-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Code" class="control-label"></label>
+                    <input asp-for="Code" class="form-control" />
+                    <span asp-validation-for="Code" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AppUserId" class="control-label"></label>
+                    <input asp-for="AppUserId" class="form-control" />
+                    <span asp-validation-for="AppUserId" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="CustomerName" class="control-label"></label>
+                    <input asp-for="CustomerName" class="form-control" />
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CustomerEmail" class="control-label"></label>
+                    <input asp-for="CustomerEmail" class="form-control" />
+                    <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TotalAmount" class="control-label"></label>
+                    <input asp-for="TotalAmount" class="form-control" />
+                    <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                </div>
+                        
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label asp-for="@Model.Quantity" class="control-label"></label>
+                    <input asp-for="@Model.Quantity" class="form-control"/>
+                    <span asp-validation-for="@Model.Quantity" class="text-danger"></span>
+        
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.IsConfirmByShop" class="control-label"></label>
+                    <input asp-for="@Model.IsConfirmByShop" class="form-control"/>
+                    <span asp-validation-for="@Model.IsConfirmByShop" class="text-danger"></span>
+                
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.IsConfirmByUser" class="control-label"></label>
+                    <input asp-for="@Model.IsConfirmByUser" class="form-control"/>
+                    <span asp-validation-for="@Model.IsConfirmByUser" class="text-danger"></span>
+                
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.MethodPay" class="control-label"></label>
+                    @Html.DropDownListFor(m => m.MethodPay, 
+                    new SelectList(methodPay, "Value", "Text", Model.MethodPay), 
+                    new { @class = "form-control" })
+                    <span asp-validation-for="@Model.MethodPay" class="text-danger"></span>
+                        
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Status" class="control-label"></label>
+                    @Html.DropDownListFor(m => m.Status, 
+                        new SelectList(statusValues, "Value", "Text", Model.Status), 
+                        new { @class = "form-control" })
+                    <span asp-validation-for="@Model.Status" class="text-danger"></span>
+                                
+                </div>
+                <div class="form-group d-none">
+                    <label asp-for="@Model.CreatedAt" class="control-label"></label>
+                    <input asp-for="@Model.CreatedAt" class="form-control"/>
+                    <span asp-validation-for="@Model.CreatedAt" class="text-danger"></span>
+                
+                </div>
+                <div class="form-group d-none">
+                    <label asp-for="@Model.CreatedBy" class="control-label"></label>
+                    <input asp-for="@Model.CreatedBy" class="form-control"/>
+                    <span asp-validation-for="@Model.CreatedBy" class="text-danger"></span>
+                                        
+                </div>
+                
+            </div>
+        </div>
+                    
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-success"/>
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+
+
+
+

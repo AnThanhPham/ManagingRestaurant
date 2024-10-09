@@ -1,0 +1,274 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .introduction__content__title {
+      font-size: 3.6rem;
+    }
+  
+    .introduction__content__desc,
+    .visit__content p,
+    .popular__heading p {
+      font-size: 1.4rem;
+    }
+    .introduction__content {
+      padding: 0 18px;
+    }
+    .introduction__thumbnail-main {
+      padding-bottom: 20px;
+    }
+    .introduction__thumbnail-main img {
+      width: 250.86px;
+      height: 295.608px;
+    }
+    .introduction__thumbnail-sub img {
+      width: 54.24px;
+      height: 56.274px;
+    }
+    .introduction__thumbnail__price {
+      width: 85.428px;
+      height: 36.612px;
+      font-size: 1.6272rem;
+    }
+    .introduction__thumbnail {
+      padding-top: 50px;
+    }
+  
+    .contact__right {
+      height: 282px;
+    }
+  
+    .menu__title h2 {
+      font-size: 3.2rem;
+      line-height: 1.29412;
+      max-width: 338px;
+    }
+  
+    .menu__title p {
+      font-size: 1.4rem;
+      max-width: 338px;
+      line-height: 1.71429;
+    }
+  
+    .menu__list__item-about h4 {
+      max-width: 168px;
+    }
+  
+    .daily-list__item-content-title span:first-child {
+      font-size: 2.2rem;
+    }
+  
+    .daily-list__item-content > p {
+      font-size: 1.4rem;
+      max-width: 258px;
+    }
+  
+    .daily-list__item-content-title span:last-child {
+      font-size: 2.4rem;
+    }
+  
+    .daily-list__item {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 0;
+    }
+  
+    .daily-list {
+      height: unset;
+      margin-top: 24px;
+    }
+  
+    .daily-list__item-img {
+      width: 100%;
+    }
+  
+    .daily-list__item-img img {
+      height: 314px;
+      width: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  
+    .daily-list__item-content {
+      width: 100%;
+    }
+  
+    .chef__title h2 {
+      font-size: 3.4rem;
+      line-height: 1.29412;
+    }
+  
+    .chef__title p {
+      line-height: 1.71429;
+      font-size: 1.4rem;
+    }
+  
+    .daily h2,
+    .visit__content h2,
+    .popular__heading h2,
+    .blog__title h2 {
+      font-size: 3.4rem;
+      line-height: 1.29412;
+    }
+  
+    .daily-lunch > span {
+      font-size: 1.6616rem;
+      line-height: 1.32403;
+    }
+  
+    .daily-lunch__title-number {
+      font-size: 5rem;
+      line-height: 1;
+    }
+    /*-main*/
+    .cart-ul img{
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+    .cart-ul{
+      font: 200 10px/15px 'Libre Bodoni', serif;
+    }
+
+    .products-cart .header-card{
+      padding-bottom: 20px;
+      font: 300 10px/15px 'Libre Bodoni', serif;
+    }
+    .cart-quantity{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* `md` applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    .table-reservation__login,
+    .navbar {
+      display: none;
+    }
+  
+    .menu-nav {
+      display: block;
+    }
+  
+    .header-navbar {
+      padding: 20px 10.5px 10px;
+    }
+  
+    .navbar-item__mobile {
+      list-style: none;
+      transition: linear 0.2s;
+    }
+  
+    .navbar-mobile {
+      background-color: #111114;
+    }
+  
+    .navbar-item__mobile a {
+      text-decoration: none;
+      padding: 10px 22px;
+      font-size: 2rem;
+      display: block;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  
+    .navbar-item__mobile:hover {
+      background-color: #ccc;
+    }
+    /*-main*/
+    .cart-ul img{
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+    .cart-ul{
+      font: 200 10px/15px 'Libre Bodoni', serif;
+    }
+
+    .products-cart .header-card{
+      padding-bottom: 20px;
+      font: 300 10px/15px 'Libre Bodoni', serif;
+    }
+    .cart-quantity{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    .introduction__thumbnail {
+      justify-content: center;
+    }
+    .popular__img-item__desc-title h3,
+    .popular__img-item__desc-title span {
+      font-size: 1.8rem;
+    }
+  
+    .popular__img-item__desc p {
+      font-size: 1.4rem;
+    }
+  
+    .popular__img-item__desc .order__star {
+      gap: 2px;
+    }
+  
+    .reservation__content {
+      padding-left: 20px;
+    }
+  
+    .footer__logo .trademark {
+      flex-direction: row !important;
+    }
+  
+  }
+  
+  /* `xl` applies to large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {
+    .menu__navbar-list button {
+      font-size: 2.4rem;
+    }
+    .menu__list__item-about h4 {
+      font-size: 2.2rem;
+    }
+  
+    .menu__list__item-price span {
+      font-size: 2.2rem;
+    }
+  
+    .visit__thumbnail-item1,
+    .visit__thumbnail-item2,
+    .visit__thumbnail-item3 {
+      width: 33.333%;
+    }
+  
+    .visit__thumbnail-item1 img,
+    .visit__thumbnail-item2 img,
+    .visit__thumbnail-item3 img {
+      width: 100%;
+    }
+  
+    .reservation svg {
+      display: none;
+    }
+  
+    .footer__logo .trademark {
+      flex-direction: column;
+    }
+  }
+  
+  /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+  @media (max-width: 1399.98px) {
+    .blog__content-desc a {
+      margin-top: 38px;
+    }
+  
+    .blog__content-desc h4 {
+      margin-top: 16px;
+    }
+  
+    .blog__content-user {
+      margin-top: 28px;
+    }
+  }
+  

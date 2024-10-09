@@ -1,0 +1,170 @@
+@model ManagingRestaurant.Areas.Order.Models.IndeOrdersModel
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using ManagingRestaurant.Areas.Payment.Models
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    int number = 0;
+    var searchStr = Context.Request.Query["searchString"];
+    var page = Context.Request.Query["page"];
+}
+<partial name="_StatusMessage"/>
+
+<div class="m-3">
+    <h1>LIST ORDERS - Total : @Model.totalOrders</h1>
+    <p style="display: flex">
+        <a class="btn btn-warning mr-2" id="btnDeleteMany" >Delete Many</a>
+        @Html.DropDownListFor(m => m.StatusOrder, 
+            new SelectList(Enum.GetValues(typeof(StatusOrder)),Model.StatusOrder), 
+            "All Status",new
+            {
+                @class = "form-control optionSelect",style="width: 200px;margin-left:30px, ",href =Url.Action("Index", new { page, searchString = searchStr })
+            })
+    </p>
+    
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                <input type="checkbox" id="selectAll" />
+            </th>
+            <th>
+                #
+            </th>
+            <th style="width: 180px">
+                Order Code
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders[0].CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders[0].TotalAmount)
+            </th>
+            <th>
+                User Confirm
+            </th>
+            <th>
+                Shop Confirm
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders[0].Status)
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.orders) {
+            number++;
+            var index = number + (Model.orders.PageNumber - 1) * Model.orders.PageSize;
+            var status = (StatusOrder)item.Status;
+            var color = "#166fe5";
+            if(status == StatusOrder.Pending)
+            {
+                color = "#f7b924";
+            }
+            else if(status == StatusOrder.ConfirmedByUser)
+            {
+                color = "#166fe5";
+            }
+            else if(status == StatusOrder.ConfirmedByAdmin)
+            {
+                color = "#e29fb6";
+            }
+            else if(status == StatusOrder.Cancelled)
+            {
+                color = "#ff5247";
+            }
+            else if(status == StatusOrder.Shipping)
+            {
+                color = "#6ac2b6";
+            }
+            else if(status == StatusOrder.Completed)
+            {
+                color = "#0f830b";
+            }
+            <tr>
+                <td>
+                    <input type="checkbox" class="selectItem" value="@item.Id" />
+                </td>
+                <td>
+                    @index
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)$
+                </td>
+                <td>
+                    @if (item.IsConfirmByUser == true)
+                    {
+                        <span class="badge badge-success">Yes</span>
+                    }
+                    else
+                    {
+                        <span class="badge badge-danger">No</span>
+                    }
+                </td>
+                <td>
+                    @if (item.IsConfirmByShop == true)
+                    {
+                        <span class="badge badge-success">Yes</span>
+                    }
+                    else
+                    {
+                        <span class="badge badge-danger">No</span>
+                    }
+                </td>
+                <td style="color: @color">
+                    <strong>@status</strong>
+                </td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div class="m-3 d-flex flex-row-reverse">
+        @Html.PagedListPager(Model.orders, page => Url.Action("Index", new { page, searchString = searchStr }))
+    </div>
+</div>
+@* overlay *@
+<div id="overlay" class="d-none">
+    <div class="loader-wrap">
+        <div class="loader"></div>
+    </div>
+</div>
+@* notification toast *@
+<div id="notiToast"></div>
+<script src="~/Assets/JsFunction/SelectAllToDelete.js"></script>
+<script src="~/Assets/JsFunction/SearchPagination.js"></script>
+
+<script>
+let dropdown = document.querySelector('.optionSelect');
+        let options = dropdown.options;
+        for (let i = 0; i < options.length; i++) {
+            options[i].id = i-1;
+        }
+        dropdown.addEventListener('change', function () {
+            let urlBase = dropdown.getAttribute('href');
+            let url="";
+            if (urlBase.includes("?"))
+            {
+                url = urlBase + "&status=" + dropdown.options[dropdown.selectedIndex].id;
+                window.location.href = url;
+            }
+            else
+            {
+                url = urlBase + "?status=" + dropdown.options[dropdown.selectedIndex].id;
+                window.location.href = url;
+            }
+        
+            window.location.href = url;
+        });
+</script>

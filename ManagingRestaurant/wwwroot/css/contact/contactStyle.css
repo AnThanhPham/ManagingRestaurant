@@ -1,0 +1,364 @@
+header {
+  background-color: #111114;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.navbar-item {
+  list-style: none;
+}
+
+.navbar-item a {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 34px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: linear 0.3s;
+}
+
+.navbar-item a:hover,
+.table-reservation__login:hover {
+  color: #fb8f2c;
+}
+
+.table-reservation__reserve:hover {
+  color: #fb8f2c;
+  border-bottom: 1px solid #fb8f2c;
+}
+
+.table-reservation__login {
+  text-decoration: none;
+  padding-right: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: linear 0.3s;
+}
+
+.table-reservation__reserve {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: linear 0.3s;
+}
+
+.menu-nav {
+  padding: 10px;
+  display: none;
+}
+
+.menu-nav:hover {
+  transition: linear 0.3s;
+  background-color: #808080;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+/* Header */
+body {
+  background-color: #111114;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.navbar-item {
+  list-style: none;
+}
+
+.navbar-item a {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 34px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: linear 0.3s;
+}
+
+.navbar-item a:hover,
+.table-reservation__login:hover {
+  color: #fb8f2c;
+}
+
+.table-reservation__reserve:hover {
+  color: #fb8f2c;
+  border-bottom: 1px solid #fb8f2c;
+}
+
+.table-reservation__login {
+  text-decoration: none;
+  padding-right: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: linear 0.3s;
+}
+
+.table-reservation__reserve {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: linear 0.3s;
+}
+
+.menu-nav {
+  padding: 10px;
+  display: none;
+}
+
+.menu-nav:hover {
+  transition: linear 0.3s;
+  background-color: #808080;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.main-section {
+  padding-top: 85px;
+}
+
+/*main*/
+
+body {
+  background-color: #111114;
+}
+.row{
+  margin-top: 120px;
+}
+
+.div-left {
+  width: 470px;
+}
+.div-left h1 {
+  font: 500 40px/50px "Libre Bodoni", serif;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.div-left p {
+  font: 400 16px/26px "Plus Jakarta Sans", sans-serif;
+  color: #ffffff;
+  opacity: 80%;
+}
+
+.contact {
+  margin-top: 30px;
+  position: relative;
+}
+
+.contact .img-first img {
+  width: 14px;
+  height: 20px;
+  object-fit: cover;
+  top: 5px;
+  position: absolute;
+}
+.contact .img-second img,
+.contact .img-third img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.contact .img-second img {
+  top: 85px;
+  position: absolute;
+}
+.contact .img-third img {
+  top: 170px;
+  position: absolute;
+}
+.img-second p {
+  color: #fb8f2c;
+}
+.contact p {
+  width: 232px;
+  height: 52px;
+  margin: 30px 0 30px 50px;
+}
+
+.img-location {
+  margin: 200px 0 0 60px;
+  width: 1170px;
+  height: 420px;
+}
+
+.div-right {
+  height: 425px;
+  width: 570px;
+  opacity: 80%;
+  margin-left: 60px;
+  color: #ffffff;
+}
+.div-right p {
+  width: 116px;
+  margin: 10px 0px;
+}
+.div-right input,
+.div-right textarea {
+  width: 100%;
+  border-top: 0 ;
+  border-right: 0;
+  border-left: 0;
+  outline: none;
+  background-color: #111114;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.div-right .form_control:nth-child(2){
+  margin-top: 30px;
+}
+.div-right .form-control-textarea{
+  margin-top: 30px;
+}
+.div-right input {
+  height: 36px;
+  margin-bottom: 10px;
+}
+.div-right textarea {
+  height: 130px;
+}
+.email,
+.div-right textarea {
+  border-bottom: 2px solid #ffffff;
+}
+.name {
+  border-bottom: 2px solid #ffffff;
+}
+.div-right button {
+  margin-top: 40px;
+  background-color: #fb8f2c;
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 25px;
+  font-weight: 500;
+}
+/*hiệu ứng chạy khi nhập*/
+.form_control{
+  width: 100%;
+  position: relative;
+}
+.form_control span{
+  position: absolute;
+  border-bottom: 3px solid rgb(22, 176, 242);
+  left: 0;
+  top:60px;
+  width: 0%;
+  transition: 0.3s;
+}
+.div-right input:focus ~ span{
+  width: 100%;
+}
+.form-control-textarea{
+  width: 100%;
+  position: relative;
+}
+.form-control-textarea span{
+  position: absolute;
+  border-bottom: 3px solid rgb(22, 176, 242);
+  left: 0;
+  top:154px;
+  width: 0%;
+  transition: 0.3s;
+}
+.div-right textarea:focus ~ span{
+  width: 100%;
+}
+/*hiệu ứng khi sai*/
+.form_control.error small{
+  color: rgb(237, 13, 13);
+}
+.form_control.error input{
+  border-bottom: 3px solid rgb(237, 13, 13);
+}
+.form-control-textarea.error small{
+  color: rgb(237, 13, 13);
+}
+.form-control-textarea.error textarea{
+  border-bottom: 3px solid rgb(237, 13, 13);
+}
+
+/*footer*/
+footer {
+  padding: 150px 0 41px 0;
+}
+
+.footer__logo p,
+.footer__creation p {
+  margin-top: 76px;
+  max-width: 211px;
+  line-height: 1.625;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__logo .trademark,
+.footer__creation .trademark {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer__logo .trademark img,
+.footer__creation .trademark img {
+  max-width: 121.6px;
+  height: 36px;
+  object-fit: cover;
+}
+
+footer h5 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+footer ul {
+  margin-top: 24px;
+}
+
+footer ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.625; /* 162.5% */
+  display: block;
+  margin-bottom: 16px;
+}
+
+footer ul li:hover,
+footer ul li a:hover {
+  color: #fb8f2c;
+}
+
+.footer__contact-info ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer__follow-us li a {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ccc;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer__creation {
+  display: none;
+}

@@ -1,0 +1,338 @@
+/* Header */
+header {
+    background-color: #111114;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navbar-item {
+    list-style: none;
+}
+
+.navbar-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 34px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.navbar-item a:hover,.table-reservation__login:hover {
+    color: #FB8F2C;
+}
+
+.table-reservation__reserve:hover {
+    color: #FB8F2C;
+    border-bottom: 1px solid #FB8F2C;
+}
+
+.table-reservation__login {
+    text-decoration: none;
+    padding-right: 28px;
+    color: rgba(255, 255, 255, 0.80);
+    transition: linear 0.3s;
+}
+
+.table-reservation__reserve {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    transition: linear 0.3s;
+}
+
+.menu-nav {
+    padding: 10px;
+    display: none;
+}
+
+.menu-nav:hover {
+    transition: linear 0.3s;
+    background-color: #808080;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+/*main */
+
+body{
+    background-color: #111114;
+}
+.main{
+    margin-top: 150px;
+    width: 100%;
+}
+
+/* thẻ p*/
+.all-menu{
+  color: rgba(255, 255, 255, 1);
+  font: 700 40px/50px 'Libre Bodoni', serif;
+  /*width: 50%;*/
+}
+
+/*lọc san phẩm*/
+.control{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+}
+.control button{
+  background-color: #111114;
+  border: none;
+  color: rgba(255, 255, 255,1);
+}
+.control-button{
+  display: inline-block;
+  justify-content: center;
+  margin: 0 30px 0 0;
+  font: 500 30px/40px 'Libre Bodoni', serif;
+}
+
+.control button.active{
+  color: #FB8F2C;
+}
+.control ul{
+  width: 100%;
+}
+.d-flex{
+  margin-left: 10px;
+}
+
+/*thẻ */
+
+.card{
+  background-color: #111114;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid white;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.card h5{
+  height:32px;
+  margin:15px 0 20px 10px;
+  font-size: 30px/40px;
+}
+.card button{
+  width: 50%;
+}
+.card-text{
+  margin-left: none;
+  width: 40%;
+  margin-right: 20px;
+}
+.card button{
+  margin-top: -5px;
+}
+.btn{
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-font-weight: 600;
+  --bs-btn-line-height: 30px/40px;
+  font-family: "Plus Jakarta Sans", sans-seril;
+}
+.hide{
+  display: none;
+}
+/*card-space */
+.search-shopping{
+  display: flex;
+  justify-content: right;
+}
+.card-space{
+  margin-left:-40px;
+  
+}
+.card-space svg{
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.card-space span{
+  color: rgba(255, 255, 255, 1);
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: -15px;
+}
+
+/* search */
+.search-space {
+  top:10px;
+  right:50px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: all 0.5s;
+  display: flex;
+}
+.search-space.open{
+  width: 400px;
+}
+.search-space input{
+  width: 100%;
+  height: 100%;
+  padding: 20px 80px 20px 20px;
+  outline: none;
+  font-size: 25px;
+}
+.search-space button{
+  border: none;
+  outline: none;
+  background-color: #111114;
+  top:0;
+  right: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+/*message*/
+.Toast_message{
+  position: fixed;
+  top:200px;
+  right: 30px;
+  width: 30%;
+}
+.message{
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border-left: 2px solid;
+  color: #111114;
+  margin-top: 20px;
+  align-items:center;
+  margin: 10px auto;
+
+  /* hiệu ứng xuất hiện - 0.3s và mất đi trong 1s - thời gian mờ 3s*/
+  animation: slideInLeft ease .3s, fadeOut linear 1s 3s forwards; 
+}
+/*animation - cho nó chạy từ phải sang trái*/
+@keyframes slideInLeft{
+  from{
+      /*đẩy thông báo ra đằng sau bên phải*/
+    transform: translateX(calc(100% + 30px));
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut{
+  to{
+    opacity: 0;
+  }
+}
+
+.message__check{
+  font-size: 16px;
+}
+.success{
+  border-left: 5px solid #73fb18;
+}
+.warning{
+  border-left: 5px solid #f71d32;
+}
+.message__title{
+  font: 400 16px/26px  "Plus Jakarta Sans", sans-seril;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.message__exit button{
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #111114;
+  padding: 150px 0 41px 0;
+}
+
+.footer__logo p,.footer__creation p {
+  margin-top: 76px;
+  max-width: 211px;
+  line-height: 1.625;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.footer__logo .trademark,.footer__creation .trademark{
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer__logo .trademark img,.footer__creation .trademark img{
+  max-width: 121.6px;
+  height: 36px;
+  object-fit: cover;
+}
+
+footer h5 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+footer ul {
+  margin-top: 24px;
+}
+
+footer ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.80);
+  line-height: 1.625; /* 162.5% */
+  display: block;
+  margin-bottom: 16px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: linear 0.3s;
+}
+
+footer ul li:hover,footer ul li a:hover {
+  color: #FB8F2C;
+}
+
+.footer__contact-info ul li a {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+
+.footer__follow-us li a{
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ccc;
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer__creation {
+  display: none;
+}
+

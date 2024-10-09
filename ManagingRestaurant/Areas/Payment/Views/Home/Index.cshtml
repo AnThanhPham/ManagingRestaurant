@@ -1,0 +1,108 @@
+﻿@using ManagingRestaurant.Areas.Payment.Models
+@model ManagingRestaurant.Areas.Payment.Models.IndexPayModel
+@{
+    ViewData["Title"] = "Payment";
+    Layout = "_Layout";
+}
+<style>
+  .form-control{
+  color: #1e1e27 !important;
+  }
+</style>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_responsive.css">
+</head>
+<div class="container contact_container">
+    <div class="row">
+        <div class="col">
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Payment</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="m-3">
+        @if (Model.Cart.Items.Count == 0)
+        {
+            <h3 style="text-align: center">Your cart has no item, please add more item to cart</h3>
+        }
+        else
+        {
+            <form asp-action="CreatePayment" method="post">
+                <h1 style="text-align: center">PAYMENT</h1>
+                <p style="text-align: center">Please check your info before pay</p>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <input hidden="hidden" asp-for="@Model.UserId" class="form-control"/>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="@Model.UserName" class="control-label"></label>
+                            <input asp-for="@Model.UserName" class="form-control"/>
+                            <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="@Model.Email" class="control-label"></label>
+                            <input asp-for="@Model.Email" class="form-control"/>
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.Address" class="control-label"></label>
+                            <input asp-for="@Model.Address" class="form-control"/>
+                            <span asp-validation-for="@Model.Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.PhoneNumber" class="control-label"></label>
+                            <input asp-for="@Model.PhoneNumber" class="form-control"/>
+                            <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div style="display: none" class="form-group">
+                            <label asp-for="@Model.Cart" class="control-label"></label>
+                            <input asp-for="@Model.Cart" class="form-control"/>
+                            <span asp-validation-for="@Model.Cart" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="@Model.PaymentMethod" class="control-label">PaymentMethod</label>
+                            @Html.DropDownListFor(m => m.PaymentMethod,
+                                new SelectList(Enum.GetValues(typeof(MethodPayment))),
+                                "Select Payment Method", new { @class = "form-control" })
+                            <span asp-validation-for="@Model.PaymentMethod" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-5">
+                        <div  class="row" style="    border: 1px solid;
+                                                     border-radius: 9.5px;
+                                                     padding: 12px;">
+                            <dl class="row">
+                                <dt class="col-sm-7">ProductName</dt>
+                                <dt class="col-sm-2">Quantity</dt>                              
+                                <dt class="col-sm-3">TotalPrice</dt>
+                                @foreach (var item in Model.Cart.Items)
+                                {
+                                    <dd class="col-sm-7">@item.Title</dd>
+                                    <dd class="col-sm-2">@item.Quantity</dd>
+                                    <dd class="col-sm-3">@item.TotalPrice</dd>
+                                }
+                                <dt class="col-sm-7"><strong>Total</strong></dt>
+                                <dd class="col-sm-2"><strong>@Model.Cart.TotalQuantity</strong></dd>                              
+                                <dd class="col-sm-3"><strong>@Model.Cart.TotalPrice</strong></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success text-white cart_pay_btn">Finish Pay</button> 
+                </div>
+            </form>
+        }
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

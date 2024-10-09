@@ -1,0 +1,32 @@
+﻿
+
+/* Thiết lập style cho input */
+#search-input {
+    width: calc(100% - 40px); /* Điều chỉnh độ rộng của input để không chạm vào nút tìm kiếm */
+    border: none;
+    height: 97%;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Thiết lập style cho nút tìm kiếm */
+#search-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Thiết lập style cho icon trong nút tìm kiếm */
+#search-button i {
+    color: #333;
+}
+
+/* Tăng kích thước icon */
+#search-button i.fa {
+    font-size: 18px;
+}

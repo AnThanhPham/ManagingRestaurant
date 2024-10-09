@@ -1,0 +1,91 @@
+@using Microsoft.AspNetCore.Identity
+@model ManagingRestaurant.Areas.User.Models.IndexModel
+@inject UserManager<AppUser> _userManager;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_LayoutAdmin";
+    int number = 0;
+    var searchStr = Context.Request.Query["searchString"];
+}
+<partial name="_StatusMessage"/>
+
+<div class="m-3">
+    <h1>LIST USER - Total : @Model.totalUsers</h1>
+    
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.users[0].UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.users[0].Email)
+            </th>
+            <th>
+                Role
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.users[0].Created_at)
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.users)
+        {
+            number++;
+            var index = number + (Model.users.PageNumber - 1) * Model.users.PageSize;
+            <tr>
+                <td>
+                    @index
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @{
+                        string userRole = "";
+                        var roles = await _userManager.GetRolesAsync(item);
+                    }
+                    @foreach (string role in roles)
+                    {
+                        if (roles.Count() > 1)
+                        {
+                            userRole += role + ", ";
+                        }
+                        else
+                        {
+                            userRole += role;
+                        }
+                    }
+                    @userRole
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created_at)
+                </td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div class="m-3 d-flex flex-row-reverse">
+        @Html.PagedListPager(Model.users, page => Url.Action("Index", new { page, searchString = searchStr }))
+    </div>
+</div>
+<script src="~/Assets/JsFunction/SearchPagination.js"></script>

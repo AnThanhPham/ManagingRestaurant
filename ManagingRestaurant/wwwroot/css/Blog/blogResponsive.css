@@ -1,0 +1,249 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .introduction__content {
+        padding: 0 18px;
+    }
+    .introduction__thumbnail-main{
+        padding-bottom: 20px;
+    }
+    .introduction__thumbnail-main img {
+        width: 250.86px;
+        height: 295.608px;
+    }
+    .introduction__thumbnail-sub img {
+        width: 54.24px;
+        height: 56.274px;
+    }
+    .introduction__thumbnail__price {
+        width: 85.428px;
+        height: 36.612px;
+        font-size: 1.6272rem;
+    }
+    .introduction__thumbnail {
+        padding-top: 50px;
+    }
+
+    .contact__right{
+        height: 282px;
+    }
+
+    .menu__title h2{
+        font-size: 3.2rem;
+        line-height: 1.29412;
+        max-width: 338px;
+    }
+
+    .menu__title p{
+        font-size: 1.4rem;
+        max-width: 338px;
+        line-height: 1.71429;
+    }
+
+    .menu__list__item-about h4 {
+        max-width: 168px;
+    }
+
+    .page-subcribe-heading h2 {
+        font-size: 5.4rem;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .table-reservation__login,.navbar {
+        display: none;
+    }
+
+    .menu-nav {
+        display: block;
+    }
+
+    .header-navbar {
+        padding: 20px 10.5px 10px;
+    }
+
+    .navbar-item__mobile {
+        list-style: none;
+        transition: linear 0.2s;
+    }
+
+    .navbar-mobile {
+        background-color: #111114;
+    }
+
+    .navbar-item__mobile a{
+        text-decoration: none;
+        padding: 10px 22px;
+        font-size: 2rem;
+        display: block;
+        color: rgba(255, 255, 255, 0.80);
+    }
+
+    .navbar-item__mobile:hover {
+        background-color: #ccc;
+    }
+
+    .page-subcribe-img img {
+        height: unset;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .introduction__thumbnail {
+        justify-content: center;
+    }
+    .popular__img-item__desc-title h3,.popular__img-item__desc-title span {
+        font-size: 1.8rem;
+    }
+
+    .popular__img-item__desc p {
+        font-size: 1.4rem;
+    }
+
+    .popular__img-item__desc .order__star {
+        gap: 2px;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .menu__navbar-list button {
+        font-size: 2.4rem;
+    }
+    .menu__list__item-about h4 {
+        font-size: 2.2rem;
+    }
+
+    .menu__list__item-price span {
+        font-size: 2.2rem;
+
+    }
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+}
+
+/* Blog responsive */
+
+@media (max-width: 575.98px) { 
+
+    .blog__header {
+        font-size: 3.4rem;
+        line-height: 1.29412;
+    }
+
+    .management-desc-title {
+        font-size: 3rem;
+        line-height: 1.33333;
+    }
+
+    .management-desc-pa {
+        font-size: 1.4rem;
+        line-height: 1.71429;
+    }
+
+    .management-desc-readmore {
+        margin-top: 34px;
+    }
+
+    .content-new-tit {
+        color: var(--White, #FFF);
+        /* H4 */
+        font-family: Libre Bodoni;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.33333; /* 133.333% */
+    }
+
+    a.content-new-rm {
+        margin-top: 16px;
+    }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .management-desc {
+        margin-top: 24px;
+    }
+    
+    .content__line {
+        display: none;
+    }
+
+    .content-new-img {
+        margin-top: 40px;
+    }
+
+    .content-new-left {
+        margin-right: 0;
+    }
+
+    .content-new-right {
+        margin-left: 0;
+    }
+
+    .page-number-list-container {
+        display: none;
+    }
+
+    .page-number-list-container-sm {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .page-number-list-container-sm li {
+        width: 30%;
+        text-align: center;
+    }
+
+    .page-number-list-container-sm li > a {
+        text-decoration: none;
+        color: #FFF;
+        /* 16 */
+        font-family: Plus Jakarta Sans;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625; /* 162.5% */
+    }
+    
+    .page-number-num { 
+        margin-left: 20px;
+    }
+
+    .page-number-list-container-sm li > a:hover
+    {
+        width: 28px;
+        height: 28px;
+        background-color: #FB8F2C;
+        padding: 5px;
+        border-radius: 5px;
+        transition: all 0.3s;
+    }
+
+    .page-subcribe-heading-info {
+        margin-left: 0;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+
+
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+
+}

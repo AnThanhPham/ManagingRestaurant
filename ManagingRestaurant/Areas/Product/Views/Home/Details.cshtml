@@ -1,0 +1,120 @@
+@model ManagingRestaurant.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="m-3">
+    <h1>Details</h1>
+    <div>
+        <h4>Product</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.ProductCode)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.ProductCode)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Category.Title)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Category.Title)
+            </dd>
+            
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.ShortDesc)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.ShortDesc)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.Raw(Model.Description)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Image)
+            </dt>
+            <dd class="col-sm-10">
+                @if(Model.Image != null)
+                {
+                    <a href="@Model.Image">@Model.Image</a>
+                }
+            </dd>
+            <dt class = "col-sm-2">
+                More Images
+            </dt>
+            <dd class = "col-sm-10">
+                <div class="row">
+                    @if(Model.ProductImages != null)
+                    {
+                        foreach (var item in Model.ProductImages)
+                        {
+                            <div>
+                                <a style="padding: 12px" href="@item.Image">@Model.Image</a>
+                            </div>
+                        }
+                    }
+                </div>
+            </dd>
+            
+            
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Quantity)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Quantity)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd class = "col-sm-10 d-price">
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.IsActive)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.IsActive)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.CreatedAt)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.UpdatedAt)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.UpdatedAt)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.CreatedBy)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.UpdatedBy)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.UpdatedBy)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-info" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+        <a class="btn btn-primary" asp-action="Index">Back to List</a>
+    </div>
+</div>

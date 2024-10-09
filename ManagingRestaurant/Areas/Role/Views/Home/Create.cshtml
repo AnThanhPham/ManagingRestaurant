@@ -1,0 +1,34 @@
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@model ManagingRestaurant.Areas.Role.Models.CreateRoleModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_LayoutAdmin";
+}
+<div class="m-3">
+    <h1>Create</h1>
+    
+    <h4>Roles</h4>
+    <hr />
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="@Model.RoleName" class="control-label"></label>
+                    <input asp-for="@Model.RoleName" class="form-control"/>
+                    <span asp-validation-for="@Model.RoleName" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-success"/>
+        </div>
+        <div>
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+        
+    </form>
+    
+    
+</div>
