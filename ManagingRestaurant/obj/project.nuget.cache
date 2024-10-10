@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "opQqS7dTTnw=",
+  "dgSpecHash": "U5LoF7pBPoQ=",
   "success": true,
-  "projectFilePath": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+  "projectFilePath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
