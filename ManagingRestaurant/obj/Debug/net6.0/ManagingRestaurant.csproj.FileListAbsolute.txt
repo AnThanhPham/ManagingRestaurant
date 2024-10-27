@@ -319,6 +319,16 @@ D:\Document\ASP.NET-Web\ManagingRestaurant\ManagingRestaurant\obj\Debug\net6.0\M
 D:\Document\ASP.NET-Web\ManagingRestaurant\ManagingRestaurant\obj\Debug\net6.0\ref\ManagingRestaurant.dll
 D:\Document\ASP.NET-Web\ManagingRestaurant\ManagingRestaurant\bin\Debug\net6.0\X.PagedList.dll
 D:\Document\ASP.NET-Web\ManagingRestaurant\ManagingRestaurant\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.csproj.AssemblyReference.cache
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.GeneratedMSBuildEditorConfig.editorconfig
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.AssemblyInfoInputs.cache
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.AssemblyInfo.cs
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.csproj.CoreCompileInputs.cache
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.MvcApplicationPartsAssemblyInfo.cs
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.MvcApplicationPartsAssemblyInfo.cache
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.RazorAssemblyInfo.cache
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.RazorAssemblyInfo.cs
+E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.sourcelink.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\appsettings.Development.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\appsettings.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\libman.json
@@ -614,16 +624,6 @@ E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.csproj.AssemblyReference.cache
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.GeneratedMSBuildEditorConfig.editorconfig
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.AssemblyInfoInputs.cache
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.AssemblyInfo.cs
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.csproj.CoreCompileInputs.cache
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.MvcApplicationPartsAssemblyInfo.cs
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.MvcApplicationPartsAssemblyInfo.cache
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.RazorAssemblyInfo.cache
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.RazorAssemblyInfo.cs
-E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\ManagingRestaurant.sourcelink.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\staticwebassets.build.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\staticwebassets.development.json
 E:\UTC\TL-GTVL-CUA-TOI\Năm 3 ki 1\back_end\BTL\ManagingRestaurant\obj\Debug\net6.0\staticwebassets\msbuild.ManagingRestaurant.Microsoft.AspNetCore.StaticWebAssets.props

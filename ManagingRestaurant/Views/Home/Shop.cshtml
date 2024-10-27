@@ -1,0 +1,93 @@
+﻿@model ManagingRestaurant.Models.Main.IndexCate
+
+
+<!-- Link css -->
+<link rel="stylesheet" href="~/css/base.css" />
+<link rel="stylesheet" href="~/css/shopping/shoppingCSS.css" />
+<link rel="stylesheet" href="~/css/shopping/shoppingResponse.css" />
+
+<main>
+	<div class="container">
+		<div class="row">
+			<p class="col-12 col-sm-12 col-lg-6 all-menu">Your Shopping Cart</p>
+			<div class="col-12 col-sm-12 col-lg-6 search-shopping">
+				<div class="search-space">
+					<input type="text" id="myInput">
+					<button class="search-btn">
+						<i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></i>
+					</button>
+				</div>
+
+				<!-- chuyển from-->
+				<div class="card-space d-flex">
+					<a asp-area="Cart" asp-controller="Home" asp-action="CartIndex">
+						<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512"><style>svg{fill:#ffffff}</style><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></a>
+						<span class="checkout_items" id="quantity checkout_items">0</span>
+				</div>
+		</div>
+		<div class="control">
+			<ul class="sidebar_categories">
+				<li class="control-button active"><a href="#" data-filter="*">All</a></li>
+				@if (@Model.pCate.Count > 0)
+				{
+					foreach (var item in @Model.pCate)
+					{
+						<li class="control-button"><a href="#" data-filter=".category-@item.Id"><span id="@item.Id"></span>@item.Title</a></li>
+					}
+				}
+				else
+				{
+					<li class="active"><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>All</a></li>
+					<li class="control-button"><a href="#"><span></span>Breakfast</a></li>
+					<li class="control-button"><a href="#"><span></span>lunch</a></li>
+					<li class="control-button"><a href="#"><span></span>Dinner</a></li>
+					<li class="control-button"><a href="#"><span></span>Stater</a></li>
+				}
+			</ul>
+		</div>
+
+			<!-- Main Content -->
+			<div class="row">
+			@if (@Model.product.Count > 0)
+			{
+				@foreach (var item in @Model.product)
+				{
+					<div class='col-6 col-sm-6 col-md-4 col-lg-3'>
+							<div class='card category-@item.CategoryId' id="@item.CategoryId">
+							<img src="@Url.Content("~/UploadedFiles/" + item.Image)" class='card-img-top' alt='' >
+							<div class='card-body'>
+								<h5 class='card-title'><a asp-area="" asp-controller="Home" asp-action="DetailProduct" asp-route-id="@item.Id">@item.Name</a></h5>
+								<div class='d-flex'>
+									<p>$<p class='card-text'>@item.Price</p></p>
+									<div class="red_button add_to_cart_button"><a class="add_to_cart_btn" data-id="@item.Id.ToString()" style="color: #fff;cursor: pointer">add to cart</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				}
+			}						
+		</div>			
+	</div>
+</main>
+
+<script>
+	let menuItems = document.querySelectorAll('.sidebar_categories li');
+	const constProduct = document.querySelectorAll('.card');
+	// Lặp qua từng phần tử và thêm sự kiện nhấp vào
+	menuItems.forEach(function (item) {
+		item.addEventListener('click', function () {
+			// Loại bỏ lớp "active" từ tất cả các phần tử <li>
+			menuItems.forEach(function (item) {
+				item.classList.remove('active');
+				let spanItem = item.querySelector('span');
+				spanItem.innerHTML = '';
+			});
+
+			// Thêm lớp "active" cho phần tử đã được nhấp vào
+			this.classList.add('active');
+			let clickedSpan = this.querySelector('span');
+			clickedSpan.innerHTML = '<i class="fa fa-angle-double-right" aria-hidden="true"></i>';
+
+		});
+	});
+</script>

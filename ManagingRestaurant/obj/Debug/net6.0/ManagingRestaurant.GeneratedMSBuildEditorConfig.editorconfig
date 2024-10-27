@@ -426,12 +426,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/UTC/TL-GTVL-CUA-TOI/Năm 3 ki 1/back_end/BTL/ManagingRestaurant/Views/Home/DetailProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/UTC/TL-GTVL-CUA-TOI/Năm 3 ki 1/back_end/BTL/ManagingRestaurant/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/UTC/TL-GTVL-CUA-TOI/Năm 3 ki 1/back_end/BTL/ManagingRestaurant/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/UTC/TL-GTVL-CUA-TOI/Năm 3 ki 1/back_end/BTL/ManagingRestaurant/Views/Home/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/UTC/TL-GTVL-CUA-TOI/Năm 3 ki 1/back_end/BTL/ManagingRestaurant/Views/Shared/Error.cshtml]

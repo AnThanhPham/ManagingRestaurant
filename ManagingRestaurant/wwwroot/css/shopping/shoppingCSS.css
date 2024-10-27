@@ -69,10 +69,6 @@ header {
 body{
     background-color: #111114;
 }
-.main{
-    margin-top: 150px;
-    width: 100%;
-}
 
 /* thẻ p*/
 .all-menu{
@@ -87,7 +83,7 @@ body{
   margin-bottom: 80px;
   display: flex;
 }
-.control button{
+.control a{
   background-color: #111114;
   border: none;
   color: rgba(255, 255, 255,1);
@@ -99,7 +95,7 @@ body{
   font: 500 30px/40px 'Libre Bodoni', serif;
 }
 
-.control button.active{
+.control a.active{
   color: #FB8F2C;
 }
 .control ul{
@@ -118,6 +114,11 @@ body{
   margin-bottom: 30px;
   width: 100%;
 }
+.card a{
+    text-decoration : none;
+    color: white;
+}
+
 .card h5{
   height:32px;
   margin:15px 0 20px 10px;
@@ -169,6 +170,8 @@ body{
   text-align: center;
   margin-left: -15px;
 }
+
+
 
 /* search */
 .search-space {

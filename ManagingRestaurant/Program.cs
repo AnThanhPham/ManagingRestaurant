@@ -16,6 +16,13 @@ builder.Services.Configure<MailSettings>(mailsettings);               // đăng 
 
 builder.Services.AddTransient<IEmailSender, SendMailService>();        // Đăng ký dịch vụ Mail
 
+var services = builder.Services;
+//Use Session
+services.AddSession(options =>
+{
+	options.Cookie.IsEssential = true; // Make the session cookie essential
+});
+
 // đăng ký dịch vụ upload file
 builder.Services.AddTransient<IBufferedFileUploadService, BufferedFileUploadLocalService>();
 
@@ -89,9 +96,9 @@ builder.Services.ConfigureApplicationCookie(options => {
 });
 
 //Seed Data
-SeedData seed = new(builder.Services.BuildServiceProvider().CreateScope().ServiceProvider.GetRequiredService<RestaurantContext>());
-await seed.SeedRole();
-await seed.SeedUser();
+//SeedData seed = new(builder.Services.BuildServiceProvider().CreateScope().ServiceProvider.GetRequiredService<RestaurantContext>());
+//await seed.SeedRole();
+//await seed.SeedUser();
 
 builder.Services.AddAuthentication()
                     .AddGoogle(options =>
@@ -127,6 +134,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -139,7 +147,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
