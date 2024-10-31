@@ -1,0 +1,35 @@
+﻿@model New
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+<head>
+    <link rel="stylesheet" href="~/css/Blog/blogCss.css">
+    <link rel="stylesheet" href="~/css/Blog/blogResponsive.css">
+</head>
+
+<div class="container contact_container">
+    <div class="row">
+        <div class="col">
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li class="text-white mb-5"><a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="Index">Home</a> - News Detail</li>
+                    @* <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>BlogDetail</a></li> *@
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row g-4" style="color: white">
+
+        <h1 style="font-size:3.5rem">@Model.Title</h1>
+
+        <figure class="image">
+            <img style="" src="~/UploadedFiles/@Model.Image" class="card-img-top" alt="...">
+        </figure>
+
+        <div class="lh-base">
+            @Html.Raw(@Model.Desciption)
+        </div>
+    </div>
+</div>

@@ -426,8 +426,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/NewsDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WORKSPACE/ASP_DOTNET_MVC/MR/ManagingRestaurant/ManagingRestaurant/Views/Home/Privacy.cshtml]
