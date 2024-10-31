@@ -92,7 +92,6 @@ builder.Services.ConfigureApplicationCookie(options => {
 SeedData seed = new(builder.Services.BuildServiceProvider().CreateScope().ServiceProvider.GetRequiredService<RestaurantContext>());
 await seed.SeedRole();
 await seed.SeedUser();
-
 builder.Services.AddAuthentication()
                     .AddGoogle(options =>
                     {
