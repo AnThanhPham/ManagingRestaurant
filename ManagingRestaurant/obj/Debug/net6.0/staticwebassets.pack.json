@@ -181,6 +181,14 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationCSS.css",
+      "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationCSS.css"
+    },
+    {
+      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationResponse.css",
+      "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationResponse.css"
+    },
+    {
       "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\toast.css",
       "PackagePath": "staticwebassets\\css\\toast.css"
     },
@@ -737,6 +745,10 @@
       "PackagePath": "staticwebassets\\img\\shopping\\shopping.png"
     },
     {
+      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\table_reservation\\darkened_image.png",
+      "PackagePath": "staticwebassets\\img\\table_reservation\\darkened_image.png"
+    },
+    {
       "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Blog\\blogPaging.js",
       "PackagePath": "staticwebassets\\js\\Blog\\blogPaging.js"
     },
@@ -751,6 +763,10 @@
     {
       "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
       "PackagePath": "staticwebassets\\js\\Shopping\\shopping.js"
+    },
+    {
+      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Table_reservation\\table_reservation.js",
+      "PackagePath": "staticwebassets\\js\\Table_reservation\\table_reservation.js"
     },
     {
       "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\admin\\bootstrap.bundle.js",

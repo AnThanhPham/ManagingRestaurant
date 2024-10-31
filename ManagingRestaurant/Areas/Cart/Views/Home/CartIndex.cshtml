@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Shopping Cart";
     Layout = "_Layout";
-    int number = 0;
+    int res = 0;
 }
 <head>
     <link rel="stylesheet" href="~/css/shopping/cartCSS.css" />
@@ -37,6 +37,7 @@
                                     </li>
                                     <li class="item_total_price col-2 col-sm-2 col-md-2 text-center">
                                         @Html.DisplayFor(model => item.TotalPrice)
+                                        
                                     </li>
 
                                     <li class = "col-2 col-sm-2 col-md-2">
@@ -46,12 +47,21 @@
                                     </li>
                                 </ul>
                             }
-                        </div>
-                        <div class="products-cart-body" id="products-cart-body"></div>
+                            <ul>
+                                <li class="col-3 col-sm-3 col-md-3" ></li>
+                                <li class="col-2 col-sm-2 col-md-2 text-center" ></li>
+                                <li class="col-2 col-sm-2 col-md-2 text-center" ></li>
+                                <li class="col-1 col-sm-1 col-md-1 text-center" ></li>
+                                <li class="total_price col-2 col-sm-2 col-md-2 text-center">@Html.DisplayFor(model => model.TotalPrice) </li>
+                                <li class="col-2 col-sm-2 col-md-2"></li>
+                            </ul>
+                        </div>                     
                     </div>
                 </div>
-                <div class="col-12">
-                    <h4>TOTAL: $<span id='total-money'>0</span></h4>
+
+                <div class="d-flex justify-content-end">
+                    <a class="btn btn-danger text-white delete_cart_all_btn mr-3" onclick="DeleteCartAll()">Delete All</a>
+                    <a asp-area="Payment" asp-controller="Home" asp-action="Index" class="btn btn-info text-white cart_pay_btn">Pay Bill</a>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ else
     <div class="nav navbar-nav navbar-right table-reservation">
         <a class="nav-link table-reservation__login" asp-area="Identity" asp-controller="Account" asp-action="Register">Đăng ký</a>
         <a class="nav-link table-reservation__login" asp-area="Identity" asp-controller="Account" asp-action="Login">Đăng nhập</a>
-        <a href="shopping.html" class="nav-link table-reservation__reserve">Table Reservation</a>
+        <a asp-area="" asp-controller="Home" asp-action="Table_Reservation" class="nav-link table-reservation__reserve">Table Reservation</a>
     </div>
 }
 

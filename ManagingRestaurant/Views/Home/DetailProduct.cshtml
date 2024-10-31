@@ -15,11 +15,12 @@
 							<ul>
 								@if (@Model.product != null)
 								{
-									<li class="active"><img src=" @Url.Content("~/UploadedFiles/" + Model.product.Image)" alt="" data-image="@Model.product.Image" style="width: 172px; height: 135px;"></li>
-									foreach (var image in Model.product.ProductImages)
-									{
-										<li><img src=" @Url.Content("~/UploadedFiles/" + @image.Image) " alt="" data-image="@image.Image" style="width: 170px; height: 135px;"></li>
-									}
+									<li class="active"><img src=" @Url.Content("~/UploadedFiles/" + Model.product.Image)" alt="" data-image="@Model.product.Image" style="width: 110px; height: 110px;"></li>
+									/* foreach (var image in Model.product.ProductImages)
+									 {
+									 	<li><img src=" @Url.Content("~/UploadedFiles/" + @image.Image) " alt="" data-image="@image.Image" style="width: 110px; height: 100px;"></li>
+									 }
+									 */
 								}
 							</ul>
 						</div>

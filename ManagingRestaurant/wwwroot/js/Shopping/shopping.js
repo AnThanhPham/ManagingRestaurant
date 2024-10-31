@@ -82,16 +82,13 @@ async function IncreaseQuantity(that) {
         const data = await postData('/Cart/Home/AddToCart', { id: id, quantity: quantity });
         if (data.success) {
             const result = await AddItemToCart();
-            //document.querySelector('.checkout_items').textContent = result.TotalQuantity;
-            //document.querySelector('.total_price').textContent = result.TotalPrice;
-            //document.querySelector('.total_quantity').textContent = result.TotalQuantity;
-            let thisElement = document.getElementById(id);
+            document.querySelector('.total_price').textContent = (result.TotalPrice).toFixed(2);
+            let thisElement = document.getElementById(id);           
             let price = thisElement.querySelector('.item_price');
             let quantity = thisElement.querySelector('.item_quantity');
             let totalPrice = thisElement.querySelector('.item_total_price');
             quantity.innerHTML = parseFloat(quantity.innerHTML) + 1;
-            totalPrice.innerHTML = (parseFloat(price.innerHTML) * parseFloat(quantity.innerHTML)).toFixed(2);
-        } else {
+            totalPrice.innerHTML = (parseFloat(price.innerHTML) * parseFloat(quantity.innerHTML)).toFixed(2);         
             alert(data.message);
         }
     } catch (error) {
@@ -106,16 +103,13 @@ async function DecreaseQuantity(that) {
         const data = await postData('/Cart/Home/DecreaseToCart', { id: id, quantity: quantity });
         if (data.success) {
             const result = await AddItemToCart();
-            document.querySelector('.checkout_items').textContent = result.TotalQuantity;
             document.querySelector('.total_price').textContent = result.TotalPrice;
-            document.querySelector('.total_quantity').textContent = result.TotalQuantity;
             let thisElement = document.getElementById(id);
             let price = thisElement.querySelector('.item_price');
             let quantity = thisElement.querySelector('.item_quantity');
             let totalPrice = thisElement.querySelector('.item_total_price');
-            quantity.textContent = parseFloat(quantity.textContent) - 1;
-            totalPrice.textContent = parseFloat(price.textContent) * parseFloat(quantity.textContent);
-          
+            quantity.innerHTML = parseFloat(quantity.innerHTML) - 1;
+            totalPrice.innerHTML = (parseFloat(price.innerHTML) * parseFloat(quantity.innerHTML)).toFixed(2);
         } else {
             alert(data.message);
         }
