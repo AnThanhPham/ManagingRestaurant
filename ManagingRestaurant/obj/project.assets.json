@@ -13389,11 +13389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "projectUniqueName": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
       "projectName": "ManagingRestaurant",
-      "projectPath": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "projectPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\obj\\",
+      "outputPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
