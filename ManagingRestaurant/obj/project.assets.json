@@ -13384,19 +13384,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\09473\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "projectUniqueName": "D:\\C#Project\\LTWeb\\BTL\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
       "projectName": "ManagingRestaurant",
-      "projectPath": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Document\\ASP.NET-Web\\ManagingRestaurant\\ManagingRestaurant\\obj\\",
+      "projectPath": "D:\\C#Project\\LTWeb\\BTL\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "packagesPath": "C:\\Users\\09473\\.nuget\\packages\\",
+      "outputPath": "D:\\C#Project\\LTWeb\\BTL\\ManagingRestaurant\\ManagingRestaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\09473\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
