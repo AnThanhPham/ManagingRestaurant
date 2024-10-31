@@ -1,0 +1,162 @@
+﻿@model ManagingRestaurant.Areas.News.Models.IndexNewsModel
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using System.Text.RegularExpressions
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Blog/blogCss.css">
+    <link rel="stylesheet" type="text/css" href="~/css/Blog/blogResponsive.css">
+</head>
+
+<main>
+    <!-- Title -->
+
+    <section class="title">
+        <div class="container overflow-hidden">
+            <div class="blog__line"></div>
+
+            <div class="blog__header">
+                <h2 class="title__header">Restaurant Management & Growth News</h2>
+            </div>
+
+            <div class="blog__line"></div>
+
+            <div class="management__content">
+                <div class="row gx-5 ">
+                    @if (Model.news.Count > 0)
+                    {
+                        var item = Model.news[0];
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+
+                            <div class="management-img">
+                                <img src="~/UploadedFiles/@item.Image" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="management-desc">
+                                <h3 class="management-desc-title">@item.Title</h3>
+
+                                <div class="management-date">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                            <p class="management-date-postdate">August 6, 2022</p>
+                                        </div>
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                            <p class="management-date-au">○ By Admin</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="management-desc-pa">
+                                    @Html.Raw(Regex.Replace(item.ShortDesc, @"<\/?p>", ""))
+                                </p>
+
+                                <p class="management-desc-readmore">
+                                    <a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="NewsDetail" asp-route-id="@item.Id">Read more</a>
+                                </p>
+
+                                <div class="management-desc-smallLine"></div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Content -->
+    <section class="content">
+        <div class="container">
+            <div class="page" id="page1">
+                <div class="content__line"></div>
+
+                <div class="content__news">
+                    <div class="row">
+                        @if (Model.news.Count > 0)
+                        {
+                            for (int i = 0; i < Model.news.Count; i++)
+                            {
+                                var item = Model.news[i];
+                                if (i % 2 == 0)
+                                {
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="content-new-left">
+
+                                            <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
+
+                                            <h3 class="content-new-tit">@item.Title</h3>
+
+                                            <div class="content-new-date">
+                                                <div class="row">
+                                                    <div class="col-6 col-sm-4 col-md-6 col-lg-6">
+                                                        <p class="content-new-date-dpost">@item.CreatedAt</p>
+                                                    </div>
+                                                    <div class="col-6 col-sm-4 col-md-6 col-lg-6">
+                                                        <p class="content-new-date-au">○ @item.CreatedBy</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-new-md-line"></div>
+
+                                            <a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="NewsDetail" asp-route-id="@item.Id">Read more</a>
+
+                                            <div class="content-new-sm-line"></div>
+
+
+
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="content-new-right">
+                                            <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
+
+                                            <h3 class="content-new-tit">@item.Title</h3>
+
+                                            <div class="content-new-date">
+                                                <div class="row">
+                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <p class="content-new-date-dpost">@item.CreatedAt</p>
+                                                    </div>
+                                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <p class="content-new-date-au">○ @item.CreatedBy</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-new-md-line"></div>
+
+                                            <a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">Read more</a>
+
+                                            <div class="content-new-sm-line"></div>
+                                        </div>
+                                    </div>
+                                }
+                                if (i % 2 == 1)
+                                {
+                                    <div class="content__line"></div>
+                                }
+                            }
+                        }
+
+                    </div>
+                </div>
+                <!-- paste here -->
+            </div>
+
+            <div class="content__line"></div>
+
+            <div class="d-flex flex-row mt-4">
+               @Html.PagedListPager(Model.news, page => Url.Action("News", new { page }), new PagedListRenderOptions
+               {
+                   LiElementClasses = new[] { "page-item" },
+                   PageClasses = new[] { "page-link btn btn-outline-primary fs-4 mr-3 p-3" },
+                   UlElementClasses = new[] { "pagination justify-content-center" }
+                   })
+            </div>
+        </div>
+    </section>
+</main>

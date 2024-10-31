@@ -19,8 +19,8 @@
                             <ul class="header-card">
                                 <li class="col-3 col-sm-3 col-md-3">Name</li>
                                 <li class="col-2 col-sm-2 col-md-2 text-center">Image</li>
-                                <li class="col-2 col-sm-2 col-md-2 text-center">Price</li>
-                                <li class="col-1 col-sm-1 col-md-1 text-center">Quantily</li>
+                                <li class="col-1 col-sm-1 col-md-1 text-center">Price</li>
+                                <li class="col-2 col-sm-2 col-md-2 text-center">Quantily</li>
                                 <li class="col-2 col-sm-2 col-md-2 text-center">Total</li>
                                 <li class="col-2 col-sm-2 col-md-2">Button</li>
                             </ul>
@@ -29,10 +29,10 @@
                                 <ul id="@item.Id">  
                                     <li class ="col-3 col-sm-3 col-md-3">@Html.DisplayFor(model => item.Name)</li>
                                     <li class="col-2 col-sm-2 col-md-2 text-center"><img src="@Url.Content("~/UploadedFiles/" + item.Image)" alt="image" style="width: 90px; height: 90px;" /></li>
-                                    <li class="item_price col-2 col-sm-2 col-md-2 text-center">
+                                    <li class="item_price col-1 col-sm-1 col-md-1 text-center">
                                         @Html.DisplayFor(model => item.Price)
                                     </li>
-                                    <li class="item_quantity col-1 col-sm-1 col-md-1 text-center">
+                                    <li class="item_quantity col-2 col-sm-2 col-md-2 text-center">
                                         @Html.DisplayFor(model => item.Quantity)
                                     </li>
                                     <li class="item_total_price col-2 col-sm-2 col-md-2 text-center">
@@ -50,8 +50,8 @@
                             <ul>
                                 <li class="col-3 col-sm-3 col-md-3" ></li>
                                 <li class="col-2 col-sm-2 col-md-2 text-center" ></li>
-                                <li class="col-2 col-sm-2 col-md-2 text-center" ></li>
                                 <li class="col-1 col-sm-1 col-md-1 text-center" ></li>
+                                <li class="col-2 col-sm-2 col-md-2 text-center" >Total Money : </li>
                                 <li class="total_price col-2 col-sm-2 col-md-2 text-center">@Html.DisplayFor(model => model.TotalPrice) </li>
                                 <li class="col-2 col-sm-2 col-md-2"></li>
                             </ul>
@@ -61,7 +61,7 @@
 
                 <div class="d-flex justify-content-end">
                     <a class="btn btn-danger text-white delete_cart_all_btn mr-3" onclick="DeleteCartAll()">Delete All</a>
-                    <a asp-area="Payment" asp-controller="Home" asp-action="Index" class="btn btn-info text-white cart_pay_btn">Pay Bill</a>
+                    <a asp-area="Payment" asp-controller="Home" asp-action="Index" class="btn_payment btn btn-info text-white cart_pay_btn">Pay Bill</a>
                 </div>
             </div>
         </div>
