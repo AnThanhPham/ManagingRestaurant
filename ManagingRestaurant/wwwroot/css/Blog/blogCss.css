@@ -1,4 +1,4 @@
-/* Header */
+﻿/* Header */
 header {
     background-color: #111114;
     position: fixed;
@@ -537,3 +537,28 @@ footer ul li:hover,footer ul li a:hover {
     display: none;
 }
 
+.blog__detail__desc p{
+    line-height: 1.5;   
+}
+
+.blog-link-home a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-link-home a:hover {
+    text-decoration: none;
+    color: #FB8F2C;
+    transition: all 0.5s ease;
+}
+
+/*a.blog__link__home:hover {
+    color: #FB8F2C;
+    transition: all 0.5s ease;
+}*/
+
+a.text-white:hover {
+    color: #FB8F2C; /* Màu warning */
+}
+
+    
