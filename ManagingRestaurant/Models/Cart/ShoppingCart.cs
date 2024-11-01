@@ -9,6 +9,8 @@ public class ShoppingCartItem
     public int Quantity { get; set; }
     public string? Image { get; set; }
     public decimal TotalPrice { get; set; }
+
+    public string? Name { get; set; }
 }
 
 public class ShoppingCart

@@ -4,6 +4,10 @@
       font-size: 3.6rem;
   }
 
+    .red_button a {
+        font-size: 10px;
+    }
+
   .introduction__content__desc,.visit__content p,.popular__heading p{
       font-size: 1.4rem;
   }
@@ -210,9 +214,14 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  .table-reservation__login,.navbar {
-      display: none;
-  }
+.table-reservation__login,.navbar {
+    display: none;
+}
+
+.red_button a {
+    font-size: 12px;
+}
+
 
   .menu-nav {
       display: block;
@@ -343,7 +352,9 @@
   .popular__img-item__desc-title h3,.popular__img-item__desc-title span {
       font-size: 1.8rem;
   }
-
+    .red_button a {
+        font-size: 14px;
+    }
   .popular__img-item__desc p {
       font-size: 1.4rem;
   }
@@ -400,6 +411,9 @@
   .menu__navbar-list button {
       font-size: 2.4rem;
   }
+    .red_button a {
+        font-size: 16px;
+    }
   .menu__list__item-about h4 {
       font-size: 2.2rem;
   }
@@ -442,7 +456,6 @@
   .blog__content-desc a {
       margin-top: 38px;
   }
-
   .blog__content-desc h4 {
       margin-top: 16px;
   }

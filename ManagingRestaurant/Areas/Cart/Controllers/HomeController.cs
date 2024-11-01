@@ -54,7 +54,8 @@ public class HomeController : Controller
             Price = product.Price,
             Quantity = data.quantity,
             Image = product.Image,
-            TotalPrice = product.Price * data.quantity
+            TotalPrice = product.Price * data.quantity,
+            Name = product.Name
         };
         var findItem = cart.Items.FirstOrDefault(i => i.Id == item.Id);
         if(findItem != null)

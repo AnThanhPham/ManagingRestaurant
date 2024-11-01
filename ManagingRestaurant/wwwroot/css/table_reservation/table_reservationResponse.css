@@ -1,0 +1,14 @@
+﻿/* Responsive Design */
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}

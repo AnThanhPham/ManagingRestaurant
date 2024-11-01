@@ -5,6 +5,74 @@
       "PackagePath": "staticwebassets\\ManagingRestaurant.bundle.scp.css"
     },
     {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Beefsteak.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Beefsteak.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Breakfast Sandwiches.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Breakfast Sandwiches.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Cascades.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Cascades.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Clever Carb.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Clever Carb.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Coconut Pancakes.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Coconut Pancakes.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Crumbed Fish Balls.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Crumbed Fish Balls.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Fermented Pork Roll.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Fermented Pork Roll.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Foie Gras.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Foie Gras.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Glass_Noodle_Spring_Rolls.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Glass_Noodle_Spring_Rolls.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Memphis_Banana_Bread.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Memphis_Banana_Bread.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Miso_Croque_Madame.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Miso_Croque_Madame.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Mixed Vegetables.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Mixed Vegetables.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Oysters.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Oysters.jpg"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pea_Pecorino_Frittata.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Pea_Pecorino_Frittata.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pork Dumplings.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Pork Dumplings.jpg"
+    },
+    {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (1).png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (1).png"
     },
@@ -31,6 +99,10 @@
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Roll Salmon Eggs.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\Roll Salmon Eggs.jpg"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot (163).png",
@@ -109,6 +181,14 @@
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+      "PackagePath": "staticwebassets\\css\\shopping\\DetailProduct.css"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProductResponsive.css",
+      "PackagePath": "staticwebassets\\css\\shopping\\DetailProductResponsive.css"
+    },
+    {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
       "PackagePath": "staticwebassets\\css\\shopping\\cartCSS.css"
     },
@@ -131,6 +211,14 @@
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationCSS.css",
+      "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationCSS.css"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationResponse.css",
+      "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationResponse.css"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\toast.css",
@@ -593,100 +681,104 @@
       "PackagePath": "staticwebassets\\img\\shopping\\Beefsteak.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast Sandwiches (2).png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast Sandwiches (2).png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast Sandwiches.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast Sandwiches.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast Sandwiches.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast Sandwiches.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches_2.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches_2.png"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Cascades.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Cascades.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Chicken And Haloumi Skewers.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Chicken And Haloumi Skewers.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Chicken_And_Haloumi_Skewers.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Chicken_And_Haloumi_Skewers.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Clever Carb.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Clever Carb.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Clever_Carb.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Clever_Carb.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Coconut Pancakes.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Coconut Pancakes.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Coconut_Pancakes.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Coconut_Pancakes.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Crumbed Fish Balls.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Crumbed Fish Balls.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Crumbed_Fish_Balls.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Crumbed_Fish_Balls.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Fermented Pork Roll.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Fermented Pork Roll.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Fermented_Pork Roll.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Fermented_Pork Roll.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Foie Gras.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Foie Gras.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Foie_Gras.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Foie_Gras.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Glass Noodle Spring Rolls.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Glass Noodle Spring Rolls.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Glass_Noodle_Spring_Rolls.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Glass_Noodle_Spring_Rolls.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Memphis Banana Bread.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Memphis Banana Bread.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Memphis_Banana_Bread.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Memphis_Banana_Bread.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Miso Croque Madame.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Miso Croque Madame.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Miso_Croque_Madame.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Miso_Croque_Madame.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Mixed Vegetables.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Mixed Vegetables.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Mixed_Vegetables.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Mixed_Vegetables.png"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Oysters.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Oysters.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pea,Pecorino Frittata.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Pea,Pecorino Frittata.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pea_Pecorino_Frittata.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Pea_Pecorino_Frittata.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pork Dumplings.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Pork Dumplings.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pork_Dumplings.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Pork_Dumplings.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Ricotta Hotcakes.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Ricotta Hotcakes.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Ricotta_Hotcakes.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Ricotta_Hotcakes.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Roll Salmon Eggs.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Roll Salmon Eggs.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Roll_Salmon_Eggs.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Roll_Salmon_Eggs.jpg"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sallad.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Sallad.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Shrimp Cocktail.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Shrimp Cocktail.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Shrimp_Cocktail.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Shrimp_Cocktail.png"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sturgeon Eggs Nd Bread.jpg",
-      "PackagePath": "staticwebassets\\img\\shopping\\Sturgeon Eggs Nd Bread.jpg"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sturgeon_Eggs_Nd_Bread.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping\\Sturgeon_Eggs_Nd_Bread.jpg"
     },
     {
-      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Supper Burgers.png",
-      "PackagePath": "staticwebassets\\img\\shopping\\Supper Burgers.png"
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Supper_Burgers.png",
+      "PackagePath": "staticwebassets\\img\\shopping\\Supper_Burgers.png"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\shopping.png",
       "PackagePath": "staticwebassets\\img\\shopping\\shopping.png"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\table_reservation\\darkened_image.png",
+      "PackagePath": "staticwebassets\\img\\table_reservation\\darkened_image.png"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Blog\\blogPaging.js",
@@ -703,6 +795,10 @@
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
       "PackagePath": "staticwebassets\\js\\Shopping\\shopping.js"
+    },
+    {
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Table_reservation\\table_reservation.js",
+      "PackagePath": "staticwebassets\\js\\Table_reservation\\table_reservation.js"
     },
     {
       "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\admin\\bootstrap.bundle.js",
