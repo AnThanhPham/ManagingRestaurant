@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "blogCss.css",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
@@ -78,20 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "News.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\News.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\News.cshtml",
               "ToolTip": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\News.cshtml",
               "RelativeToolTip": "ManagingRestaurant\\Views\\Home\\News.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAKAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-23T13:43:30.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Controllers\\HomeController.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Blog.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\Blog.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\Blog.cshtml",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NewsDetail.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\NewsDetail.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\NewsDetail.cshtml",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Shared\\_LayoutAdmin.cshtml",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "blogResponsive.css",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogResponsive.css",
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogResponsive.css",
@@ -151,15 +151,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "BlogDetail.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
               "ToolTip": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
               "RelativeToolTip": "ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T14:05:37.935Z"
+              "WhenOpened": "2024-10-23T14:05:37.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
