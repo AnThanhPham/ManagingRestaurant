@@ -1,991 +1,991 @@
 {
   "Files": [
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ManagingRestaurant.bundle.scp.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ManagingRestaurant.bundle.scp.css",
       "PackagePath": "staticwebassets\\ManagingRestaurant.bundle.scp.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Beefsteak.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Beefsteak.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Beefsteak.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Breakfast Sandwiches.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast Sandwiches.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Breakfast Sandwiches.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Cascades.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Cascades.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Cascades.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Clever Carb.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Clever Carb.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Clever Carb.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Coconut Pancakes.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Coconut Pancakes.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Coconut Pancakes.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Crumbed Fish Balls.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Crumbed Fish Balls.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Crumbed Fish Balls.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Fermented Pork Roll.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Fermented Pork Roll.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Fermented Pork Roll.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Foie Gras.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Foie Gras.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Foie Gras.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Glass_Noodle_Spring_Rolls.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Glass_Noodle_Spring_Rolls.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Glass_Noodle_Spring_Rolls.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Memphis_Banana_Bread.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Memphis_Banana_Bread.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Memphis_Banana_Bread.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Miso_Croque_Madame.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Miso_Croque_Madame.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Miso_Croque_Madame.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Mixed Vegetables.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Mixed Vegetables.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Mixed Vegetables.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Oysters.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Oysters.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Oysters.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pea_Pecorino_Frittata.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pea_Pecorino_Frittata.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Pea_Pecorino_Frittata.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pork Dumplings.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Pork Dumplings.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Pork Dumplings.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (1).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (1).png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (1).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (14).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (14).jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (14).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (2).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (2).png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (2).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (21).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (21).jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (21).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (26).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (26).jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (26).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (5).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10 (5).png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10 (5).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Rectangle 10.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Rectangle 10.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Roll Salmon Eggs.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Roll Salmon Eggs.jpg",
       "PackagePath": "staticwebassets\\UploadedFiles\\Roll Salmon Eggs.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot (163).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot (163).png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Screenshot (163).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-15 185321.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-15 185321.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Screenshot 2023-06-15 185321.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-22 171828.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-22 171828.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Screenshot 2023-06-22 171828.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-29 214906.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Screenshot 2023-06-29 214906.png",
       "PackagePath": "staticwebassets\\UploadedFiles\\Screenshot 2023-06-29 214906.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
       "PackagePath": "staticwebassets\\css\\Blog\\blogCss.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogResponsive.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogResponsive.css",
       "PackagePath": "staticwebassets\\css\\Blog\\blogResponsive.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\admin\\sb-admin-2.min.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\admin\\sb-admin-2.min.css",
       "PackagePath": "staticwebassets\\css\\admin\\sb-admin-2.min.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\base.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\base.css",
       "PackagePath": "staticwebassets\\css\\base.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\contact\\contactResponsive.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\contact\\contactResponsive.css",
       "PackagePath": "staticwebassets\\css\\contact\\contactResponsive.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\contact\\contactStyle.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\contact\\contactStyle.css",
       "PackagePath": "staticwebassets\\css\\contact\\contactStyle.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\loader.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\loader.css",
       "PackagePath": "staticwebassets\\css\\loader.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\login\\login.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\login\\login.css",
       "PackagePath": "staticwebassets\\css\\login\\login.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\menu\\menu.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\menu\\menu.css",
       "PackagePath": "staticwebassets\\css\\menu\\menu.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\menu\\responsiveMenu.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\menu\\responsiveMenu.css",
       "PackagePath": "staticwebassets\\css\\menu\\responsiveMenu.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\pageList.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\pageList.css",
       "PackagePath": "staticwebassets\\css\\pageList.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\page\\pageResponsive.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\page\\pageResponsive.css",
       "PackagePath": "staticwebassets\\css\\page\\pageResponsive.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\page\\pageStyle.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\page\\pageStyle.css",
       "PackagePath": "staticwebassets\\css\\page\\pageStyle.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\reset.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\reset.css",
       "PackagePath": "staticwebassets\\css\\reset.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\responsive.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
       "PackagePath": "staticwebassets\\css\\shopping\\DetailProduct.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProductResponsive.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProductResponsive.css",
       "PackagePath": "staticwebassets\\css\\shopping\\DetailProductResponsive.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
       "PackagePath": "staticwebassets\\css\\shopping\\cartCSS.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartResponse.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartResponse.css",
       "PackagePath": "staticwebassets\\css\\shopping\\cartResponse.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingCSS.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingCSS.css",
       "PackagePath": "staticwebassets\\css\\shopping\\shoppingCSS.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingResponse.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingResponse.css",
       "PackagePath": "staticwebassets\\css\\shopping\\shoppingResponse.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\site.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\style.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationCSS.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationCSS.css",
       "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationCSS.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationResponse.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\table_reservation\\table_reservationResponse.css",
       "PackagePath": "staticwebassets\\css\\table_reservation\\table_reservationResponse.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\toast.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\css\\toast.css",
       "PackagePath": "staticwebassets\\css\\toast.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon.ico",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-144x144.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-144x144.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-144x144.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-192x192.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-192x192.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-192x192.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-36x36.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-36x36.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-36x36.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-48x48.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-48x48.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-48x48.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-72x72.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-72x72.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-72x72.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-96x96.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\android-icon-96x96.png",
       "PackagePath": "staticwebassets\\favicon\\android-icon-96x96.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-114x114.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-114x114.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-114x114.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-120x120.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-120x120.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-120x120.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-144x144.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-144x144.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-144x144.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-152x152.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-152x152.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-152x152.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-180x180.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-180x180.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-180x180.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-57x57.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-57x57.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-57x57.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-60x60.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-60x60.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-60x60.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-72x72.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-72x72.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-72x72.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-76x76.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-76x76.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-76x76.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-precomposed.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon-precomposed.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon-precomposed.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\apple-icon.png",
       "PackagePath": "staticwebassets\\favicon\\apple-icon.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\browserconfig.xml",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\browserconfig.xml",
       "PackagePath": "staticwebassets\\favicon\\browserconfig.xml"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\favicon-16x16.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\favicon\\favicon-16x16.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\favicon-32x32.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\favicon\\favicon-32x32.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\favicon-96x96.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\favicon-96x96.png",
       "PackagePath": "staticwebassets\\favicon\\favicon-96x96.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\favicon.ico",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon\\favicon.ico"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\manifest.json",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\manifest.json",
       "PackagePath": "staticwebassets\\favicon\\manifest.json"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-144x144.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-144x144.png",
       "PackagePath": "staticwebassets\\favicon\\ms-icon-144x144.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-150x150.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-150x150.png",
       "PackagePath": "staticwebassets\\favicon\\ms-icon-150x150.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-310x310.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-310x310.png",
       "PackagePath": "staticwebassets\\favicon\\ms-icon-310x310.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-70x70.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\favicon\\ms-icon-70x70.png",
       "PackagePath": "staticwebassets\\favicon\\ms-icon-70x70.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 21.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 21.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 21.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 22.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22_2.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22_2.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 22_2.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22_3.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 22_3.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 22_3.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 23.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23_2.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23_2.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 23_2.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23_3.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 23_3.png",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 23_3.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 48.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\Blog\\Rectangle 48.jpg",
       "PackagePath": "staticwebassets\\img\\Blog\\Rectangle 48.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\Call.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\Call.png",
       "PackagePath": "staticwebassets\\img\\contact\\Call.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\Location.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\Location.png",
       "PackagePath": "staticwebassets\\img\\contact\\Location.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\Message.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\Message.png",
       "PackagePath": "staticwebassets\\img\\contact\\Message.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\appstore.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\appstore.png",
       "PackagePath": "staticwebassets\\img\\contact\\appstore.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\chplay.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\chplay.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\chplay.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\contact\\image 92.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\contact\\image 92.png",
       "PackagePath": "staticwebassets\\img\\contact\\image 92.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\AmericanChopsueyJainRecipe.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\AmericanChopsueyJainRecipe.png",
       "PackagePath": "staticwebassets\\img\\home\\AmericanChopsueyJainRecipe.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\ChawliBeansandMintBurger.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\ChawliBeansandMintBurger.png",
       "PackagePath": "staticwebassets\\img\\home\\ChawliBeansandMintBurger.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\HealthySalmonPowerBowl.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\HealthySalmonPowerBowl.png",
       "PackagePath": "staticwebassets\\img\\home\\HealthySalmonPowerBowl.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\MakaiShorbaThickCornSoup.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\MakaiShorbaThickCornSoup.png",
       "PackagePath": "staticwebassets\\img\\home\\MakaiShorbaThickCornSoup.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\PaneerNCheeseRoll(WrapsandRolls).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\PaneerNCheeseRoll(WrapsandRolls).png",
       "PackagePath": "staticwebassets\\img\\home\\PaneerNCheeseRoll(WrapsandRolls).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\PaneerNuggetsQuickPaneerDeep-fried.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\PaneerNuggetsQuickPaneerDeep-fried.png",
       "PackagePath": "staticwebassets\\img\\home\\PaneerNuggetsQuickPaneerDeep-fried.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\RawChickenFilletGarlic.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\RawChickenFilletGarlic.png",
       "PackagePath": "staticwebassets\\img\\home\\RawChickenFilletGarlic.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle1.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle1.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle1.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle10.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle10.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle10.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle2.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle2.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle2.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle20.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle20.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle20.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle26.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle26.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle26.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle27.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle27.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle27.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle28.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle28.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle28.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle29.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle29.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle29.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle30.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle30.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle30.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle31.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle31.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle31.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle77.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle77.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle77.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle78.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle78.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle78.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle79.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle79.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle79.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle80.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle80.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle80.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle81.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle81.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle81.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle82.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle82.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle82.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle83.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle83.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle83.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle84.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle84.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle84.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle9.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\Rectangle9.png",
       "PackagePath": "staticwebassets\\img\\home\\Rectangle9.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\StirFriedMixedVegetablesinButter.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\StirFriedMixedVegetablesinButter.png",
       "PackagePath": "staticwebassets\\img\\home\\StirFriedMixedVegetablesinButter.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\appstore.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\appstore.png",
       "PackagePath": "staticwebassets\\img\\home\\appstore.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\bg.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\bg.jpg",
       "PackagePath": "staticwebassets\\img\\home\\bg.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\google.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\google.png",
       "PackagePath": "staticwebassets\\img\\home\\google.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\icon1.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\icon1.png",
       "PackagePath": "staticwebassets\\img\\home\\icon1.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\icon2.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\icon2.png",
       "PackagePath": "staticwebassets\\img\\home\\icon2.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\icon3.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\icon3.png",
       "PackagePath": "staticwebassets\\img\\home\\icon3.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\icon4.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\icon4.png",
       "PackagePath": "staticwebassets\\img\\home\\icon4.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\image77.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\image77.png",
       "PackagePath": "staticwebassets\\img\\home\\image77.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\image89.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\image89.png",
       "PackagePath": "staticwebassets\\img\\home\\image89.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\image90.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\image90.png",
       "PackagePath": "staticwebassets\\img\\home\\image90.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\image91.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\image91.png",
       "PackagePath": "staticwebassets\\img\\home\\image91.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\home\\shawnanggg-nmpW_WwwVSc-unsplash.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\home\\shawnanggg-nmpW_WwwVSc-unsplash.jpg",
       "PackagePath": "staticwebassets\\img\\home\\shawnanggg-nmpW_WwwVSc-unsplash.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Group 113.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Group 113.png",
       "PackagePath": "staticwebassets\\img\\menu\\Group 113.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Group 114.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Group 114.png",
       "PackagePath": "staticwebassets\\img\\menu\\Group 114.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (1).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (1).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (1).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (10).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (10).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (10).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (11).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (11).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (11).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (12).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (12).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (12).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (13).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (13).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (13).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (14).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (14).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (14).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (15).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (15).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (15).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (16).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (16).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (16).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (17).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (17).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (17).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (18).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (18).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (18).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (19).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (19).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (19).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (2).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (2).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (2).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (20).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (20).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (20).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (21).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (21).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (21).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (22).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (22).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (22).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (23).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (23).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (23).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (24).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (24).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (24).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (25).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (25).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (25).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (26).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (26).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (26).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (3).jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (3).jpg",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (3).jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (4).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (4).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (4).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (5).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (5).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (5).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (6).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (6).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (6).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (7).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (7).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (7).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (8).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (8).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (8).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (9).png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10 (9).png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10 (9).png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle 10.png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle 10.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle26.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\menu\\Rectangle26.png",
       "PackagePath": "staticwebassets\\img\\menu\\Rectangle26.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\page\\Rectangle 21.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\page\\Rectangle 21.png",
       "PackagePath": "staticwebassets\\img\\page\\Rectangle 21.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\page\\Vector.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\page\\Vector.png",
       "PackagePath": "staticwebassets\\img\\page\\Vector.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Beefsteak.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Beefsteak.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Beefsteak.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches_2.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Breakfast_Sandwiches_2.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Breakfast_Sandwiches_2.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Cascades.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Cascades.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Cascades.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Chicken_And_Haloumi_Skewers.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Chicken_And_Haloumi_Skewers.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Chicken_And_Haloumi_Skewers.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Clever_Carb.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Clever_Carb.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Clever_Carb.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Coconut_Pancakes.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Coconut_Pancakes.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Coconut_Pancakes.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Crumbed_Fish_Balls.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Crumbed_Fish_Balls.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Crumbed_Fish_Balls.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Fermented_Pork Roll.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Fermented_Pork Roll.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Fermented_Pork Roll.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Foie_Gras.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Foie_Gras.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Foie_Gras.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Glass_Noodle_Spring_Rolls.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Glass_Noodle_Spring_Rolls.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Glass_Noodle_Spring_Rolls.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Memphis_Banana_Bread.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Memphis_Banana_Bread.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Memphis_Banana_Bread.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Miso_Croque_Madame.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Miso_Croque_Madame.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Miso_Croque_Madame.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Mixed_Vegetables.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Mixed_Vegetables.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Mixed_Vegetables.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Oysters.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Oysters.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Oysters.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pea_Pecorino_Frittata.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pea_Pecorino_Frittata.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Pea_Pecorino_Frittata.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pork_Dumplings.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Pork_Dumplings.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Pork_Dumplings.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Ricotta_Hotcakes.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Ricotta_Hotcakes.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Ricotta_Hotcakes.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Roll_Salmon_Eggs.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Roll_Salmon_Eggs.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Roll_Salmon_Eggs.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sallad.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sallad.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Sallad.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Shrimp_Cocktail.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Shrimp_Cocktail.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Shrimp_Cocktail.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sturgeon_Eggs_Nd_Bread.jpg",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Sturgeon_Eggs_Nd_Bread.jpg",
       "PackagePath": "staticwebassets\\img\\shopping\\Sturgeon_Eggs_Nd_Bread.jpg"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\Supper_Burgers.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\Supper_Burgers.png",
       "PackagePath": "staticwebassets\\img\\shopping\\Supper_Burgers.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\shopping\\shopping.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\shopping\\shopping.png",
       "PackagePath": "staticwebassets\\img\\shopping\\shopping.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\img\\table_reservation\\darkened_image.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\img\\table_reservation\\darkened_image.png",
       "PackagePath": "staticwebassets\\img\\table_reservation\\darkened_image.png"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Blog\\blogPaging.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Blog\\blogPaging.js",
       "PackagePath": "staticwebassets\\js\\Blog\\blogPaging.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Contact\\contact.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Contact\\contact.js",
       "PackagePath": "staticwebassets\\js\\Contact\\contact.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Page\\page.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Page\\page.js",
       "PackagePath": "staticwebassets\\js\\Page\\page.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
       "PackagePath": "staticwebassets\\js\\Shopping\\shopping.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Table_reservation\\table_reservation.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\Table_reservation\\table_reservation.js",
       "PackagePath": "staticwebassets\\js\\Table_reservation\\table_reservation.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\admin\\bootstrap.bundle.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\admin\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\admin\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\admin\\jquery.easing.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\admin\\jquery.easing.min.js",
       "PackagePath": "staticwebassets\\js\\admin\\jquery.easing.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\admin\\sb-admin-2.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\admin\\sb-admin-2.min.js",
       "PackagePath": "staticwebassets\\js\\admin\\sb-admin-2.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\main.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\popper.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\popper.js",
       "PackagePath": "staticwebassets\\js\\popper.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\site.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\validator.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\js\\validator.js",
       "PackagePath": "staticwebassets\\js\\validator.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.css",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.js",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.css",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.css",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.css.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.css.map",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.js",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.js",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.js.map",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.min.js.map",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js.map"
     },
     {
-      "Id": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.png",
+      "Id": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\wwwroot\\lib\\multiple-select\\multiple-select.png",
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.png"
     },
     {

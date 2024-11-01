@@ -13384,19 +13384,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tienc\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "projectUniqueName": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
       "projectName": "ManagingRestaurant",
-      "projectPath": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\ManagingRestaurant.csproj",
-      "packagesPath": "C:\\Users\\tienc\\.nuget\\packages\\",
-      "outputPath": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\obj\\",
+      "projectPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tienc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
