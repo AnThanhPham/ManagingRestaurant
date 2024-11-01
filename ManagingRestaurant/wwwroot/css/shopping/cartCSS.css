@@ -70,9 +70,10 @@ body{
     background-color: #111114;
 }
 
-main{
-    margin-top: 150px;
-   /* color: rgba(255, 255, 255, 1)*/
+main {
+    padding-top: 0px;
+    margin-top : 100px;
+    color: rgba(255, 255, 255, 1)
 }
 .products-cart li{
   list-style-type: none;
@@ -89,6 +90,9 @@ main{
   border-top: 1px solid rgba(255, 255, 255, 1);
   padding: 20px 0px;
 }
+a .btn_payment{
+    font-size: 16px;
+}
 .cart-ul li{
   margin: auto 0;
 }
@@ -96,7 +100,7 @@ main{
   padding: 5px 10px ;
 }
 .main h4{
-  color: rgba(255, 255, 255, 1);
+  color: white;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 1);
   padding: 40px 0  0 0;
