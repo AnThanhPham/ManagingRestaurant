@@ -175,8 +175,8 @@ namespace ManagingRestaurant.Controllers
 				return await context.Categories.Where(c => c.IsActive).ToListAsync();
 			}
 		}
-
-		private async Task<List<Product>> GetProductsActiveAsync()
+        
+        private async Task<List<Product>> GetProductsActiveAsync()
 		{
 			using (var scope = _scopeFactory.CreateScope())
 			{
