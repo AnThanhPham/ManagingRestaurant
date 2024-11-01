@@ -83,11 +83,12 @@ body{
   margin-bottom: 80px;
   display: flex;
 }
-.control a{
-  background-color: #111114;
-  border: none;
-  color: rgba(255, 255, 255,1);
-}
+    .control a {
+        background-color: #111114;
+        border: none;
+        color: rgba(255, 255, 255,1);
+        text-decoration: none;
+    }
 .control-button{
   display: inline-block;
   justify-content: center;
@@ -95,9 +96,15 @@ body{
   font: 500 30px/40px 'Libre Bodoni', serif;
 }
 
-.control a.active{
-  color: #FB8F2C;
+
+.control .active a {
+    color: #FF8C00; /* Màu cam */
 }
+    /* Hoặc có thể thêm hover effect */
+    .control .active a:hover {
+        color: #FFA500; /* Màu cam nhạt hơn khi hover */
+    }
+
 .control ul{
   width: 100%;
 }

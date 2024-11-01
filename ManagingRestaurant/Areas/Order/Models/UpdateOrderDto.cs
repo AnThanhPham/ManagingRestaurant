@@ -15,7 +15,7 @@ public class UpdateOrderDto
     public string CustomerName { get; set; }
     
     [Required]
-    public string AppUserIdFK { get; set; }
+    public string AppUserId { get; set; }
     
     [Required]
     public string CustomerEmail { get; set; }

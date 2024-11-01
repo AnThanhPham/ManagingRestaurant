@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\areas\\order\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\order\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|d:\\workspace\\asp_dotnet_mvc\\mr\\managingrestaurant\\managingrestaurant\\wwwroot\\css\\blog\\blogcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\wwwroot\\css\\blog\\blogcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -63,6 +71,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\.gitignore",
+              "RelativeDocumentMoniker": "ManagingRestaurant\\.gitignore",
+              "ToolTip": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\.gitignore",
+              "RelativeToolTip": "ManagingRestaurant\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T12:53:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Areas\\Order\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Order\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Areas\\Order\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ManagingRestaurant\\Areas\\Order\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T04:46:29.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "blogCss.css",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
@@ -70,12 +104,11 @@
               "RelativeToolTip": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-01T03:57:38.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T03:57:38.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NewsDetail.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\NewsDetail.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\NewsDetail.cshtml",
@@ -87,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "News.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\News.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\News.cshtml",
@@ -99,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Controllers\\HomeController.cs",
@@ -111,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BlogDetail.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\BlogDetail.cshtml",
@@ -123,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Shared\\_Header.cshtml",
@@ -135,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\Index.cshtml",
@@ -147,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Blog.cshtml",
               "DocumentMoniker": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\Views\\Home\\Blog.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\Blog.cshtml",

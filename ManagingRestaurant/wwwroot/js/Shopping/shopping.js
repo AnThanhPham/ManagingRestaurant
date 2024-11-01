@@ -186,3 +186,71 @@ function initThumbnail() {
         });
     }
 }
+
+// Lấy danh sách các sản phẩm và các nút điều khiển lọc
+let menuListCart = Array.from(document.querySelectorAll(".card"));
+let menuNavButtonCart = Array.from(document.querySelectorAll(".sidebar_categories .control-button a"));
+
+// Hàm lọc sản phẩm
+function filterProduct(element) {
+    console.log(element);
+    let elementType = element.getAttribute("data-filter").toUpperCase();
+
+    // Cập nhật nút active
+    menuNavButtonCart.forEach(menuNavButtonItem => {
+        if (menuNavButtonItem === element) {
+            menuNavButtonItem.parentElement.classList.add("active");
+        } else {
+            menuNavButtonItem.parentElement.classList.remove("active");
+        }
+    });
+
+    // Lọc các mục trong danh sách sản phẩm
+    menuListCart.forEach(item => {
+        let categoryClass = Array.from(item.classList).find(cls => cls.startsWith("category-"));
+        if (categoryClass) categoryClass = categoryClass.toUpperCase();
+
+        if (elementType === "*" || categoryClass === elementType.slice(1)) {
+            item.parentElement.classList.remove("hide");
+        } else {
+            item.parentElement.classList.add("hide");
+        }
+    });
+}
+
+// Gán sự kiện onclick cho các nút lọc
+menuNavButtonCart.forEach(button => {
+    button.addEventListener("click", function (event) {
+        event.preventDefault(); // Ngăn chặn điều hướng mặc định của thẻ <a>
+        filterProduct(this);
+    });
+});
+
+
+// Hiệu ứng mở khi nhấn vào nút tìm kiếm
+var btnSearch = document.querySelector('.search-btn');
+btnSearch.addEventListener('click', function () {
+    this.parentElement.classList.toggle('open');
+    console.log('Toggled search bar');
+});
+
+// Hàm tìm kiếm sản phẩm
+var searchInput = document.querySelector('#myInput');
+searchInput.addEventListener('keyup', function (e) {
+    // Lấy giá trị nhập vào và xóa dấu cách thừa, chuyển sang chữ thường
+    let txtSearch = e.target.value.trim().toLowerCase();
+    let ListProductDOM = document.querySelectorAll('.card');
+
+    // Duyệt qua danh sách sản phẩm để lọc theo từ khóa
+    ListProductDOM.forEach(item => {
+        let productName = item.innerText.toLowerCase();
+        let categoryClass = Array.from(item.classList).find(cls => cls.startsWith("category-"));
+
+        // Hiển thị hoặc ẩn sản phẩm dựa trên từ khóa tìm kiếm
+        if (productName.includes(txtSearch) || txtSearch === "") {
+            item.parentElement.classList.remove('hide');
+        } else {
+            item.parentElement.classList.add('hide');
+        }
+    });
+});
