@@ -7,95 +7,69 @@
     Layout = "_Layout";
 }
 <head>
-	<link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_styles.css">
-    <link rel="stylesheet" type="text/css" href="~/Assets/Main/styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="~/css/contact/contactStyle.css">
+	<link rel="stylesheet" type="text/css" href="~/css/contact/contactResponsive.css">
 </head>
+    <section class="main">
+            <div class="container">
+              <div class="row gx-5">
+                <div class="col-12 col-sm-12 col-md-7 col-lg-6">
+                  <div class="div-left">
+                    <h1>Get In Touch With Starbelly</h1>
+                    <p>
+                      Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                      Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                      eleifend tellus. Aenean leo ligula, porttitor eu.
+                    </p>
+                    <div class="contact">
+                      <div class="img-first">
+                        <img src="~/img/contact/Location.png" />
+                        <p>Silk St, Barbican, London EC2Y 8DS, UK</p>
+                      </div>
+                      <div class="img-second">
+                        <img src="~/img/contact/Message.png" />
+                        <p>hellouihut@gmail.com<br />gmail1234@gmail.com</p>
+                      </div>
+                      <div class="img-third">
+                        <img src="~/img/contact/Call.png" />
+                        <p>+00-0000-00000<br />+01-0000-00000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-<div class="container contact_container">
-    	<div class="row">
-    		<div class="col">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-6">
+                  <div class="div-right">
+                        <form id="form-contact" asp-area="Contact" asp-controller="Home" asp-action="SubmitForm" method="post">
+                            <div class="form_control">
+                                <p>Your name *</p>
+                                <input asp-for="@Model.UserName" class="name" type="text" oninput="showSuccess(this)" placeholder="Name" />
+                                <small asp-validation-for="Name"></small>
+                                <span></span>
+                            </div>
+                            <div class="form_control">
+                                <p>Email address *</p>
+                                <input asp-for="@Model.Email" class="email" type="email" oninput="showSuccess(this)" placeholder="Email Address" />
+                                <small asp-validation-for="Email"></small>
+                                <span></span>
+                            </div>
+                            <div class="form-control-textarea">
+                                <p>Write review *</p>
+                                <textarea asp-for="@Model.Message" oninput="showSuccess(this)" placeholder="Write your review"></textarea>
+                                <small asp-validation-for="Review"></small>
+                                <span></span>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                  </div>
+                </div>
+              </div>
+              <img src="~/img/contact/image 92.png" class="img-location" />
+            </div>
+          </section>
+    </div>
 
-			<!-- Breadcrumbs -->
-
-			<div class="breadcrumbs d-flex flex-row align-items-center">
-				<ul>
-					<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-					<li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Map Container -->
-
-	<div class="row">
-		<div class="col">
-			<div id="google_map">
-				<div class="map_container">
-					<div id="map"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Contact Us -->
-
-	<div class="row">
-
-		<div class="col-lg-6 contact_col">
-			<div class="contact_contents">
-				<h1>Contact Us</h1>
-				<p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
-				<div>
-					<p>(800) 686-6688</p>
-					<p>admin@gmail.com</p>
-				</div>
-				<div>
-					<p>mm</p>
-				</div>
-				<div>
-					<p>Open hours: 8.00-18.00 Mon-Fri</p>
-					<p>Sunday: Closed</p>
-				</div>
-			</div>
-
-			<!-- Follow Us -->
-
-			<div class="follow_us_contents">
-				<h1>Follow Us</h1>
-				<ul class="social d-flex flex-row">
-					<li><a href="#" style="background-color: #3a61c9"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#" style="background-color: #41a1f6"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#" style="background-color: #fb4343"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					<li><a href="#" style="background-color: #8f6247"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-
-		</div>
-
-		<div class="col-lg-6 get_in_touch_col">
-			<div class="get_in_touch_contents">
-				<h1>Get In Touch With Us!</h1>
-				<p>Fill out the form below to recieve a free and confidential.</p>
-				<form id="form-contact" asp-area="Contact" asp-controller="Home" asp-action="Create" method="post">
-					<div>
-						<input asp-for="@Model.UserName" id="input_name" class="form_input input_name input_ph" type="text" placeholder="Name" required="required" data-error="Name is required.">
-						<input asp-for="@Model.Email" id="input_email" class="form_input input_email input_ph" type="email" placeholder="Email" required="required" data-error="Valid email is required.">
-						<input asp-for="@Model.PhoneNumber" id="input_website" class="form_input input_website input_ph" type="text" placeholder="Phone Number">
-						<textarea asp-for="@Model.Message" id="input_message" class="input_ph input_message"  placeholder="Message" rows="3" required data-error="Please, write us a message."></textarea>
-					</div>
-					<div>
-						<button id="review_submit" type="submit" class="red_button message_submit_btn trans_300" value="Submit">send message</button>
-					</div>
-				</form>
-			</div>
-		</div>
-
-	</div>
-</div>
-
-<script>
+    <script>
 async function postData(url = "", data = {}) {
     // Default options are marked with *
     const response = await fetch(url, {

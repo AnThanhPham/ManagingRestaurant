@@ -98,7 +98,7 @@ namespace ManagingRestaurant.Areas.Contact
                 contact.CreatedAt = DateTime.Now;
                 await _context.Contacts.AddAsync(contact);
                 await _context.SaveChangesAsync();
-                return Json(new { success = true, message = "Contact sended success!" });
+                return Json(new { success = true, message = "Contact sent success!" });
             }
             return Json(new { success = false, message = "Invalid data request!" });
         }
