@@ -11,7 +11,7 @@
                     <p class="introduction__content-intro">Hi, new friend!</p>
                     <h1 class="introduction__content__title">We do not cook, we create your emotions!</h1>
                     <p class="introduction__content__desc">There's evidence that cooking, like other creative practices, can boost well-being, self-esteem, and other measures of mental health.</p>
-                    <a href="#menu" class="introduction__content__link">Our menu</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Shop" class="introduction__content__link">Our menu</a>
                 </div>
             </div>
             <div class="col-md-12 col-lg-5">
@@ -47,7 +47,7 @@
     </div>
 </section>
 
-<!-- Popular -->
+<!-- Popular  chưa --> 
 <section class="popular" id="pages">
     <div class="container overflow-hidden">
         <div class="popular__heading">
@@ -197,7 +197,7 @@
             </div>
         </div>
         <div class="popular__linkAll">
-            <a href="shopping.html">Explore All Food</a>
+            <a asp-area="" asp-controller="Home" asp-action="Shop">Explore All Food</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">
                 <path d="M1 5.5H17M17 5.5C15.4848 5.26 12.4545 4.024 12.4545 1M17 5.5C15.4848 5.74 12.4545 6.976 12.4545 10" stroke="#FB8F2C" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
