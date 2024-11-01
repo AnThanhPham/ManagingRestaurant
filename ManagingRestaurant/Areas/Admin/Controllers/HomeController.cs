@@ -1,8 +1,11 @@
-﻿using ManagingRestaurant.Data;
+﻿using ManagingRestaurant.Areas.Admin.Models;
+using ManagingRestaurant.Areas.Payment.Models;
+using ManagingRestaurant.Data;
 using ManagingRestaurant.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace ManagingRestaurant.Areas.Admin.Controllers
 {
@@ -16,12 +19,12 @@ namespace ManagingRestaurant.Areas.Admin.Controllers
             _context = context;
         }
 
-        public IActionResult IndexHome()
+        public async Task<IActionResult> IndexHomeAsync()
         {
-            /*var orders = await _context.Orders.ToListAsync();
+            var orders = await _context.Orders.ToListAsync();
             if (orders == null)
             {
-                orders = new List<NetMVC.Models.Order>();
+                orders = new List<ManagingRestaurant.Models.Order>();
             }
             var totalRevenue = orders.Where(o => o.Status == (int)StatusOrder.Completed).Sum(o => o.TotalAmount);
             var totalOrder = orders.Count();
@@ -66,10 +69,10 @@ namespace ManagingRestaurant.Areas.Admin.Controllers
                 OrderConfirmedByAdmin = orderConfirmedByAdmin,
                 BankingMethod = orders.Count(o => o.MethodPay == (int)MethodPayment.Banking),
                 CashMethod = orders.Count(o => o.MethodPay == (int)MethodPayment.Cash),
-            };*/
-            /*return View(model);*/
+            };
             ViewData["title"] = "Admin";
-            return View();
+            return View(model);
+            //return View();
         }
     }
 }
