@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model ManagingRestaurant.Areas.Blogs.Models.IndexBlogsModel
 <!-- Section -->
 <section class="introduction" id="home">
     <div class="container">
@@ -666,49 +666,101 @@
         </div>
         <div class="blog__content">
             <div class="blog__content__top">
-                <div class="row gx-5 gy-4">
-                    <div class="col-lg-6">
-                        <div class="blog__content-img">
-                            <img src="/img/home/Rectangle1.png" alt="The Most Expensive Cup of Coffee in the Usa">
+                @* @if (Model.blogs.Count > 0)
+                {
+                    var item = Model.blogs[0];
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="management-img">
+                            <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                <img src="~/UploadedFiles/@item.Image" alt="">
+                            </a>
+
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="blog__content-desc">
-                            <span>August 6, 2022</span>
-                            <h4>The Most Expensive Cup of Coffee in the Usa</h4>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lauatium, totam rem aperiam perspiciatis unde omnis.</p>
-                            <div class="blog__content-user">
-                                <span class="blog__content-user__comment">Comments 165</span>
-                                <span class="blog__content-user__views">View 1265</span>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="management-desc">
+                            <h3 class="management-desc-title">@item.Title</h3>
+
+                            <div class="management-date">
+                                <div class="row">
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <p class="management-date-postdate">August 6, 2022</p>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <p class="management-date-au">○ By Admin</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class=""><a href="blog.html">Read Now</a></div>
+
+                            <p class="management-desc-pa">
+                                @Html.Raw(Regex.Replace(item.ShortDesc, @"<\/?p>", ""))
+                            </p>
+
+                            <p class="management-desc-readmore">
+                                <a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">Read more</a>
+                            </p>
+
+                            <div class="management-desc-smallLine"></div>
                         </div>
                     </div>
-                </div>
+                } *@
+                
+                    <div class="row gx-5 gy-4">
+                        @if (Model.blogs.Count > 0)
+                        {
+                            var item = Model.blogs[0];
+                            <div class="col-lg-6">
+                                <div class="blog__content-img">
+                                    <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                        <img src="~/UploadedFiles/@item.Image" alt="The Most Expensive Cup of Coffee in the Usa">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog__content-desc">
+                                    <span>@item.CreatedAt</span>
+                                    <h4>@item.Title</h4>
+                                    <p>@item.ShortDesc</p>
+                                    <div class="blog__content-user">
+                                        <span class="blog__content-user__comment">Comments 165</span>
+                                        <span class="blog__content-user__views">View 1265</span>
+                                    </div>
+                                <div class=""><a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">Read now</a></div>
+                                </div>
+                            </div>
+                        }
+                    </div>
             </div>
             <div class="blog__content__bottom">
                 <div class="row gx-5 gy-4">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="blog__content-img">
-                            <img src="/img/home/Rectangle2.png" alt="Chicken Soup With Spring Veggies Aand Pasta">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="blog__content-desc">
-                            <span>August 6, 2022</span>
-                            <h4>Chicken Soup With Spring Veggies Aand Pasta</h4>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lauatium, totam rem aperiam perspiciatis unde omnis.</p>
-                            <div class="blog__content-user">
-                                <span class="blog__content-user__comment">Comments 165</span>
-                                <span class="blog__content-user__views">View 1265</span>
+                    @if (Model.blogs.Count > 0)
+                    {
+                        var item = Model.blogs[1];
+                        <div class="col-lg-6 order-lg-2">
+                            <div class="blog__content-img">
+                                <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                <img src="~/UploadedFiles/@item.Image" alt="The Most Expensive Cup of Coffee in the Usa">
+                                </a>
                             </div>
-                            <div class=""><a href="blog.html">Read Now</a></div>
                         </div>
-                    </div>
+                        <div class="col-lg-6 order-lg-1">
+                            <div class="blog__content-desc">
+                                <span>@item.CreatedAt</span>
+                                <h4>@item.Title</h4>
+                                <p>@item.ShortDesc</p>
+                                <div class="blog__content-user">
+                                    <span class="blog__content-user__comment">Comments 165</span>
+                                    <span class="blog__content-user__views">View 1265</span>
+                                </div>
+                                <div class=""><a class="text-white text-decoration-none text-warning" asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">Read now</a></div>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
             <div class="popular__linkAll">
-                <a href="blog.html">Explore All Blogs</a>
+                <a class="text-white text-warning" asp-area="" asp-controller="Home" asp-action="Blog">Explore All Blogs</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">
                     <path d="M1 5.5H17M17 5.5C15.4848 5.26 12.4545 4.024 12.4545 1M17 5.5C15.4848 5.74 12.4545 6.976 12.4545 10" stroke="#FB8F2C" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
