@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MOoL/aHA8Ho=",
+  "dgSpecHash": "ZO8VaLkrP1M=",
   "success": true,
-  "projectFilePath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+  "projectFilePath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
@@ -281,11 +281,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\x.pagedlist\\10.2.1\\x.pagedlist.10.2.1.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\x.pagedlist.mvc.core\\10.2.1\\x.pagedlist.mvc.core.10.2.1.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\x.pagedlist.mvc.core\\10.2.1\\x.pagedlist.mvc.core.10.2.1.nupkg.sha512"
   ],
   "logs": []
 }

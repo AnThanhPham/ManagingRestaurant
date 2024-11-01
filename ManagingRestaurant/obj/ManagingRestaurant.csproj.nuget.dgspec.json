@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj": {}
+    "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj": {}
   },
   "projects": {
-    "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj": {
+    "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+        "projectUniqueName": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
         "projectName": "ManagingRestaurant",
-        "projectPath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
+        "projectPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\ManagingRestaurant.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\obj\\",
+        "outputPath": "D:\\Document\\ASP.NET-Web\\Restaurant\\ManagingRestaurant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,24 +174,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -200,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

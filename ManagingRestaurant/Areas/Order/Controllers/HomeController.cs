@@ -14,6 +14,7 @@ using NuGet.Packaging;
 using X.PagedList;
 using ManagingRestaurant.Data;
 using ManagingRestaurant.Upload;
+using ManagingRestaurant.Areas.Identity.Controllers;
 
 namespace ManagingRestaurant.Areas.Order.Controllers
 {
@@ -23,10 +24,12 @@ namespace ManagingRestaurant.Areas.Order.Controllers
     {
         private readonly RestaurantContext _context;
         private readonly IBufferedFileUploadService _uploadService;
-        public HomeController(RestaurantContext context, IBufferedFileUploadService uploadService)
+        private readonly ILogger<AccountController> _logger;
+        public HomeController(RestaurantContext context, IBufferedFileUploadService uploadService, ILogger<AccountController> logger)
         {
             _context = context;
             _uploadService = uploadService;
+            _logger = logger;
         }
 
         [TempData]
@@ -170,6 +173,13 @@ namespace ManagingRestaurant.Areas.Order.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
+            }
+            foreach (var modelState in ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    _logger.LogError("ModelState Error: {Error}", error.ErrorMessage);
+                }
             }
             var orderModel = await _context.Orders.FindAsync(id);
             return View(orderModel);
