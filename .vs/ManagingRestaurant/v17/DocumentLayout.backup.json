@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
               "ToolTip": "D:\\WORKSPACE\\ASP_DOTNET_MVC\\MR\\ManagingRestaurant\\ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
               "RelativeToolTip": "ManagingRestaurant\\wwwroot\\css\\Blog\\blogCss.css",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwEkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-01T03:57:38.357Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Views\\Home\\News.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T03:46:51.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T03:46:51.766Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Views\\Home\\Blog.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T01:37:49.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T01:37:49.576Z"
             }
           ]
         },
