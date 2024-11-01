@@ -67,8 +67,7 @@
               "ViewState": "AgIAAEoAAAAAAAAAAAAUwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-22T15:34:52.04Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAUwJsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:02:14.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T16:02:14.178Z"
             },
             {
               "$type": "Document",
@@ -99,7 +97,7 @@
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
               "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
               "RelativeToolTip": "ManagingRestaurant\\wwwroot\\css\\shopping\\cartCSS.css",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-31T15:47:18.862Z",
               "EditorCaption": ""
@@ -114,8 +112,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:05:37.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T15:05:37.21Z"
             },
             {
               "$type": "Document",

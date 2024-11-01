@@ -67,8 +67,7 @@
               "ViewState": "AgIAAEoAAAAAAAAAAAAUwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-22T15:34:52.04Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAUwJsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:02:14.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T16:02:14.178Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:05:37.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T15:05:37.21Z"
             },
             {
               "$type": "Document",
