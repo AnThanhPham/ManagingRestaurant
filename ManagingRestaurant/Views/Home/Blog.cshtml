@@ -28,7 +28,10 @@
                         <div class="col-sm-12 col-md-12 col-lg-6">
 
                             <div class="management-img">
-                                <img src="~/UploadedFiles/@item.Image" alt="">
+                                <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                    <img src="~/UploadedFiles/@item.Image" alt="">
+                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -37,11 +40,11 @@
 
                                 <div class="management-date">
                                     <div class="row">
-                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
-                                            <p class="management-date-postdate">August 6, 2022</p>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                                            <p class="management-date-postdate">@item.CreatedAt</p>
                                         </div>
-                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
-                                            <p class="management-date-au">○ By Admin</p>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                                            <p class="management-date-au">○ By @item.CreatedBy</p>
                                         </div>
                                     </div>
                                 </div>
@@ -81,9 +84,9 @@
                                 {
                                     <div class="col-sm-12 col-md-12 col-lg-6">
                                         <div class="content-new-left">
-
-                                            <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
-
+                                            <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                                <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
+                                            </a>
                                             <h3 class="content-new-tit">@item.Title</h3>
 
                                             <div class="content-new-date">
@@ -92,7 +95,7 @@
                                                         <p class="content-new-date-dpost">@item.CreatedAt</p>
                                                     </div>
                                                     <div class="col-6 col-sm-4 col-md-6 col-lg-6">
-                                                        <p class="content-new-date-au">○ @item.CreatedBy</p>
+                                                        <p class="content-new-date-au">○ By @item.CreatedBy</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -112,7 +115,9 @@
                                 {
                                     <div class="col-sm-12 col-md-12 col-lg-6">
                                         <div class="content-new-right">
-                                            <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
+                                            <a asp-area="" asp-controller="Home" asp-action="BlogDetail" asp-route-id="@item.Id">
+                                                <img src="~/UploadedFiles/@item.Image" alt="" class="content-new-img">
+                                            </a>
 
                                             <h3 class="content-new-tit">@item.Title</h3>
 
@@ -122,7 +127,7 @@
                                                         <p class="content-new-date-dpost">@item.CreatedAt</p>
                                                     </div>
                                                     <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                                                        <p class="content-new-date-au">○ @item.CreatedBy</p>
+                                                        <p class="content-new-date-au">○ By @item.CreatedBy</p>
                                                     </div>
                                                 </div>
                                             </div>

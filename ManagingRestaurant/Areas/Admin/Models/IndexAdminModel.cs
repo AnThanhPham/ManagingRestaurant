@@ -3,7 +3,7 @@
     public class IndexAdminModel
     {
         public StaticalInYear StaticalInYear { get; set; }
-        /*public List<NetMVC.Models.Order> Orders { get; set; }*/
+        public List<ManagingRestaurant.Models.Order> Orders { get; set; }
         public decimal TotalRevenue { get; set; }
         public int TotalOrder { get; set; }
         public int OrderPending { get; set; }

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Diagnostics;
 using X.PagedList;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ManagingRestaurant.Controllers
 {
@@ -24,9 +25,24 @@ namespace ManagingRestaurant.Controllers
 			_scopeFactory = scopeFactory;
 
 		}
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string? searchString, int? page = 1)
         {
-            return View();
+            if (_context.Blogs == null)
+            {
+                return Problem("Entity set 'RestarantContext.Blog'  is null.");
+            }
+            var blogs = _context.Blogs.Where(n => n.IsActive).OrderByDescending(n => n.CreatedAt).ToPagedList(page ?? 1, ITEM_PER_PAGE_BLOG);
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                blogs = _context.Blogs.Where(n => n.Title.Contains(searchString) && n.IsActive).OrderByDescending(n => n.CreatedAt).ToPagedList(page ?? 1, ITEM_PER_PAGE_BLOG);
+            }
+            var model = new IndexBlogsModel
+            {
+                ITEM_PER_PAGE = ITEM_PER_PAGE_BLOG,
+                totalBlogs = await _context.Blogs.CountAsync(),
+                blogs = blogs
+            };
+            return View(model);
         }
 
         public async Task<IActionResult> Blog(string? searchString, int? page = 1)

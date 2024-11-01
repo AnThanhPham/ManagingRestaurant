@@ -48,6 +48,7 @@ namespace ManagingRestaurant.Areas.Identity.Controllers
         public IActionResult Login(string returnUrl = null)
         {
             ViewData["ReturnUrl"] = returnUrl;
+            ViewData["Title"] = "Log in";
             return View();
         }
 
@@ -56,10 +57,9 @@ namespace ManagingRestaurant.Areas.Identity.Controllers
         [HttpPost("/login/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            returnUrl ??= Url.Content("~/");
-            ViewData["ReturnUrl"] = returnUrl;
+            var returnUrl = Url.Content("~/");
             if (ModelState.IsValid)
             {
                  
@@ -93,6 +93,13 @@ namespace ManagingRestaurant.Areas.Identity.Controllers
                 {
                     ModelState.AddModelError("Không đăng nhập được.");
                     return View(model);
+                }
+            }
+            foreach (var modelState in ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    _logger.LogError("ModelState Error: {Error}", error.ErrorMessage);
                 }
             }
             return View(model);

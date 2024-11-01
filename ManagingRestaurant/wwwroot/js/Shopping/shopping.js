@@ -67,7 +67,7 @@ async function AddToCart() {
                 await AddItemToCart();
                 alert(data.message);
             } catch (error) {
-                window.location.href = '/Identity/Account/Login';
+                window.location.href = '/login';
             }
         })
     })
