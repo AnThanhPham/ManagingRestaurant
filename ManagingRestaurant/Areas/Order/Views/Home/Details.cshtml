@@ -25,7 +25,7 @@
                               <div>
                                     @if (item.Product.Image != null)
                                     {
-                                        <img src="@item.Product.Image" alt="@item.Product.Name" style="width: 100px; height: 100px" />
+                                    <img src=" @Url.Content("~/UploadedFiles/" +item.Product.Image)" alt="@item.Product.Name" style="width: 100px; height: 100px" />
                                     }
                               </div>
                           </div>

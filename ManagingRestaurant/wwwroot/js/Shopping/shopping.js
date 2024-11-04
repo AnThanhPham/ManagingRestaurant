@@ -124,6 +124,7 @@ async function DeleteCartProduct(that) {
         const data = await postData('/Cart/Home/DeleteToCart', { id: id, quantity: 1 });
         if (data.success) {
             await AddItemToCart();
+            window.location.reload();
         } else {
             alert(data.message);
         }
@@ -186,6 +187,65 @@ function initThumbnail() {
         });
     }
 }
+/* 
+
+    6. Init Star Rating
+
+    */
+
+function initStarRating() {
+    if ($('.user_star_rating li').length) {
+        var stars = $('.user_star_rating li');
+
+        stars.each(function () {
+            var star = $(this);
+
+            star.on('click', function () {
+                var i = star.index();
+
+                stars.find('i').each(function () {
+                    $(this).removeClass('fa-star');
+                    $(this).addClass('fa-star-o');
+                });
+                for (var x = 0; x <= i; x++) {
+                    $(stars[x]).find('i').removeClass('fa-star-o');
+                    $(stars[x]).find('i').addClass('fa-star');
+                };
+            });
+        });
+    }
+}
+
+initStarRating();
+/* 
+
+    8. Init Tabs
+
+    */
+
+function initTabs() {
+    if ($('.tabs').length) {
+        var tabs = $('.tabs li');
+        var tabContainers = $('.tab_container');
+
+        tabs.each(function () {
+            var tab = $(this);
+            var tab_id = tab.data('active-tab');
+
+            tab.on('click', function () {
+                if (!tab.hasClass('active')) {
+                    tabs.removeClass('active');
+                    tabContainers.removeClass('active');
+                    tab.addClass('active');
+                    $('#' + tab_id).addClass('active');
+                }
+            });
+        });
+    }
+}
+initTabs();
+
+
 
 // Lấy danh sách các sản phẩm và các nút điều khiển lọc
 let menuListCart = Array.from(document.querySelectorAll(".card"));
