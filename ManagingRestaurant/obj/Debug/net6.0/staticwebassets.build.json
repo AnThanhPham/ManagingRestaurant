@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/M+IP8nn7fMxBTSB1Q4IpzY4MHs1robsCvVqU5i2J9w=",
+  "Hash": "Hl6u8B0dumNEymDHszAAH3KbGACdp21m8cKdlGH8lCc=",
   "Source": "ManagingRestaurant",
   "BasePath": "_content/ManagingRestaurant",
   "Mode": "Default",
@@ -5375,6 +5375,25 @@
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast Sandwiches.png"
     },
     {
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast_Sandwiches.jpg",
+      "SourceId": "ManagingRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
+      "BasePath": "_content/ManagingRestaurant",
+      "RelativePath": "UploadedFiles/Breakfast_Sandwiches.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast_Sandwiches.jpg"
+    },
+    {
       "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Cascades.png",
       "SourceId": "ManagingRestaurant",
       "SourceType": "Discovered",
@@ -5449,6 +5468,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Coconut Pancakes.jpg"
+    },
+    {
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Coconut_Pancakes.jpg",
+      "SourceId": "ManagingRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
+      "BasePath": "_content/ManagingRestaurant",
+      "RelativePath": "UploadedFiles/Coconut_Pancakes.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Coconut_Pancakes.jpg"
     },
     {
       "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Crumbed Fish Balls.jpg",
@@ -5867,6 +5905,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Screenshot 2023-06-29 214906.png"
+    },
+    {
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\shinnn.jpg",
+      "SourceId": "ManagingRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
+      "BasePath": "_content/ManagingRestaurant",
+      "RelativePath": "UploadedFiles/shinnn.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\shinnn.jpg"
     }
   ]
 }

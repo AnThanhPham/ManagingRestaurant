@@ -124,6 +124,7 @@ async function DeleteCartProduct(that) {
         const data = await postData('/Cart/Home/DeleteToCart', { id: id, quantity: 1 });
         if (data.success) {
             await AddItemToCart();
+            window.location.reload();
         } else {
             alert(data.message);
         }
