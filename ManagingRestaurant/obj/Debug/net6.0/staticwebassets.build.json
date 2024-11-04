@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hl6u8B0dumNEymDHszAAH3KbGACdp21m8cKdlGH8lCc=",
+  "Hash": "4KNIfXTXT4GkK1zqVEPTjaA2ozSp8Z9CjpV2T2Xy3WA=",
   "Source": "ManagingRestaurant",
   "BasePath": "_content/ManagingRestaurant",
   "Mode": "Default",
@@ -5375,12 +5375,12 @@
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast Sandwiches.png"
     },
     {
-      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast_Sandwiches.jpg",
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast_Sandwiches.png",
       "SourceId": "ManagingRestaurant",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
       "BasePath": "_content/ManagingRestaurant",
-      "RelativePath": "UploadedFiles/Breakfast_Sandwiches.jpg",
+      "RelativePath": "UploadedFiles/Breakfast_Sandwiches.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5391,7 +5391,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast_Sandwiches.jpg"
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast_Sandwiches.png"
+    },
+    {
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Breakfast_Sandwiches_2.png",
+      "SourceId": "ManagingRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
+      "BasePath": "_content/ManagingRestaurant",
+      "RelativePath": "UploadedFiles/Breakfast_Sandwiches_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Breakfast_Sandwiches_2.png"
     },
     {
       "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Cascades.png",
@@ -5411,25 +5430,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Cascades.png"
-    },
-    {
-      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg",
-      "SourceId": "ManagingRestaurant",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
-      "BasePath": "_content/ManagingRestaurant",
-      "RelativePath": "UploadedFiles/Chicken_And_Haloumi_Skewers.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Chicken_And_Haloumi_Skewers.jpg"
     },
     {
       "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Clever Carb.png",
@@ -5525,6 +5525,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Fermented Pork Roll.jpg"
+    },
+    {
+      "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Fermented_Pork Roll.jpg",
+      "SourceId": "ManagingRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\",
+      "BasePath": "_content/ManagingRestaurant",
+      "RelativePath": "UploadedFiles/Fermented_Pork Roll.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\Fermented_Pork Roll.jpg"
     },
     {
       "Identity": "E:\\UTC\\TL-GTVL-CUA-TOI\\Năm 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\UploadedFiles\\Foie Gras.jpg",

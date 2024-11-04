@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\cart\\views\\home\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\cart\\views\\home\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\wwwroot\\css\\shopping\\detailproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\wwwroot\\css\\shopping\\detailproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\cart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\cart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\views\\home\\detailproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\views\\home\\detailproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\wwwroot\\js\\shopping\\shopping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\wwwroot\\js\\shopping\\shopping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\order\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\order\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\cart\\views\\home\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\cart\\views\\home\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\cart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|solutionrelative:managingrestaurant\\areas\\cart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D4E0C9-FCEF-4266-8B17-313375794C97}|ManagingRestaurant\\ManagingRestaurant.csproj|e:\\utc\\tl-gtvl-cua-toi\\n\u0103m 3 ki 1\\back_end\\btl\\managingrestaurant\\areas\\admin\\views\\home\\indexhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 337,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -60,10 +64,37 @@
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
               "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
               "RelativeToolTip": "ManagingRestaurant\\wwwroot\\js\\Shopping\\shopping.js",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAmwIcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAqwMMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-01T09:55:49.405Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailProduct.css",
+              "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+              "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+              "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+              "RelativeToolTip": "ManagingRestaurant\\wwwroot\\css\\shopping\\DetailProduct.css",
+              "ViewState": "AgIAALYCAAAAAAAAAAAWwCgDAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T14:09:40.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailProduct.cshtml",
+              "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Views\\Home\\DetailProduct.cshtml",
+              "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Home\\DetailProduct.cshtml",
+              "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Views\\Home\\DetailProduct.cshtml",
+              "RelativeToolTip": "ManagingRestaurant\\Views\\Home\\DetailProduct.cshtml",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAwOMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T13:56:11.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -75,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CartIndex.cshtml",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
               "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
               "RelativeToolTip": "ManagingRestaurant\\Areas\\Cart\\Views\\Home\\CartIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T11:41:27.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Cart\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Cart\\Controllers\\HomeController.cs",
@@ -100,19 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Order\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Order\\Views\\Home\\Details.cshtml",
-              "ToolTip": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Order\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "ManagingRestaurant\\Areas\\Order\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T11:35:15.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IndexHome.cshtml",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Admin\\Views\\Home\\IndexHome.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Admin\\Views\\Home\\IndexHome.cshtml",
@@ -124,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "shoppingCSS.css",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingCSS.css",
               "RelativeDocumentMoniker": "ManagingRestaurant\\wwwroot\\css\\shopping\\shoppingCSS.css",
@@ -136,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IndexDetail.cs",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Models\\Main\\IndexDetail.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Models\\Main\\IndexDetail.cs",
@@ -148,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IndexCate.cs",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Models\\Main\\IndexCate.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Models\\Main\\IndexCate.cs",
@@ -160,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IndexBlogsModel.cs",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Areas\\Blogs\\Models\\IndexBlogsModel.cs",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Areas\\Blogs\\Models\\IndexBlogsModel.cs",
@@ -172,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "E:\\UTC\\TL-GTVL-CUA-TOI\\N\u0103m 3 ki 1\\back_end\\BTL\\ManagingRestaurant\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "ManagingRestaurant\\Views\\Shared\\_Header.cshtml",

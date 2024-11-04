@@ -203,7 +203,7 @@
 											<div class="user_pic">
 												@if (item.AppUser.Image != null)
 												{
-													<img style="max-height: 100%;max-width: 100%" src="@item.AppUser.Image" alt="">
+													<img style="max-height: 100%;max-width: 100%" src="@Url.Content("~/UploadedFiles/" + Model.product.Image)" alt="">
 												}
 											</div>
 											<div class="user_rating">
@@ -212,7 +212,7 @@
 													{
 														<li><i class="fa fa-star" aria-hidden="true"></i></li>
 													}
-													@for (int i = 1; i <= 5 - item.Rating; i++)
+													@for (int i = 1; i <= 6 - item.Rating; i++)
 													{
 														<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 													}
@@ -224,8 +224,8 @@
 												DateTime dateTime = DateTime.Parse(@item.CreatedAt.ToString());
 											}
 											<div class="review_date">@dateTime.Day.ToString() - @dateTime.Month.ToString() - @dateTime.Year.ToString()</div>
-											<div class="user_name">@item.AppUser.UserName</div>
-											<p>@item.Content</p>
+											<div class="user_name">By : @item.AppUser.UserName</div>
+											<p>Content : @item.Content</p>
 										</div>
 									</div>
 								}
@@ -294,6 +294,7 @@
 											<li><i class="fa fa-star" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
 										</ul>
 										<textarea id="review_message" class="input_review" name="Content" placeholder="Your Review" rows="4" required data-error="Please, leave us a review."></textarea>
 									</div>
