@@ -100,7 +100,7 @@ namespace ManagingRestaurant.Areas.Order.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id,UpdateOrderDto order)
+        public async Task<IActionResult> Edit(Guid id,  UpdateOrderDto order)
         {
             if (id != order.Id)
             {
@@ -117,7 +117,7 @@ namespace ManagingRestaurant.Areas.Order.Controllers
                         return NotFound();
                     }
                     findOrder.Code = order.Code;
-                    findOrder.AppUserId = order.AppUserIdFK;
+                    findOrder.AppUserId = order.AppUserId;
                     findOrder.CustomerName = order.CustomerName;
                     findOrder.CustomerEmail = order.CustomerEmail;
                     findOrder.PhoneNumber = order.PhoneNumber;
@@ -129,7 +129,7 @@ namespace ManagingRestaurant.Areas.Order.Controllers
                     findOrder.IsConfirmByShop = order.IsConfirmByShop;
                     findOrder.Status = (int)order.Status;
                     findOrder.UpdatedAt = DateTime.Now;
-                    findOrder.UpdatedBy = User.Identity.Name;
+                    findOrder.UpdatedBy = User.Identity?.Name;
                     _context.Orders.Update(findOrder);
                     StatusMessage = "Orders has been updated.";
 
@@ -155,10 +155,11 @@ namespace ManagingRestaurant.Areas.Order.Controllers
                             findStatics.TotalAmount += order.TotalAmount;
                             findStatics.TotalOrderComplicated += 1;
                             findStatics.TotalQuantity += order.Quantity;
+                            _context.Statisticals.Update(findStatics);
                         }
                     }
-                    
-                    
+
+                   
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
